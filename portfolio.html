@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    </style>
+
+    <!--The next three lines allow the Vega embed-->
+<script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+</head>
+
+
+
+<body>
+
+    <h1>Data Science 2021, by Joe Ellis</h1>
+    
+    <h2>This website will host my portfolio.</h2>
+
+    <h3>Covid-19</h3>
+
+    <p>The first chart tracks Covid-19 cases by UK region.</p>
+
+<!--Vega embed, with notes for what is going on-->
+<div class="chart" id="firstChart">
+
+  <script>
+    // Following the script tag we are using Javascript.
+    // One way to tell is to see how comments work...
+    // First job is to set the chart as a JS variable:
+    var myChart1 = "chart1_covidUKRegions.json";
+    // Now we simply insert it, using Vega's embed code:
+    // The embed function needs to be told the location, and what to put there. 
+    vegaEmbed('#firstChart', myChart1);
+  </script>
+
+</div>
+
+  <h3>The UK productivity puzzle</h3>
+
+  <p>My second chart looks at productivity in the UK. Interestingly, productivity growth slowed down in 2006 and has not recovered.</p>
+
+<div class="chart" id="secondChart">
+  <script>
+    var myChart2 = "chart2_ukProductivity.json";
+    vegaEmbed('#secondChart', myChart2);
+  </script>
+</div>
+    
+      <h3>My third chart tracks the top 10 cryptocurrencies by market capitalisation</h3>
+      <p>Bitcoin remains top dog. This chart was taken from the <a href="https://rapidcharts.io">rapid charts</a> website.</p>
+    
+<div class="chart" id="thirdChart">
+  <script>
+    var myChart3 = "RD_Top10_Cryptos.json";
+    vegaEmbed('#thirdChart', myChart3);
+  </script>
+</div>
+    
+     <h3>COVID-19 cases in 3 UK regions</h3>
+    
+    <p>The fourth chart tracks Covid-19 cases in Bristol, Brighton, and Swindon using a live API</p>
+
+<!--Vaga embed, with notes for what is going on-->
+<div class="chart" id="fourthChart">
+
+  <script>
+    // Following the script tag we are using Javascript.
+    // One way to tell is to see how comments work...
+    // First job is to set the chart as a JS variable:
+    var myChart4 = "API_Chart_Week2_JE.json";
+    // Now we simply insert it, using Vega's embed code:
+    // The embed function needs to be told the location, and what to put there. 
+    vegaEmbed('#fourthChart', myChart4);
+  </script>
+
+</div>
+
+
+
+  <p>My fifth chart also does this, using a stored CSV file. It doesn't appear to be doing a very good job...</p>
+
+<div class="chart" id="fifthChart">
+  <script>
+    var myChart5 = "CSV_Chart2.json";
+    vegaEmbed('#fifthChart', myChart5);
+  </script>
+</div>    
+    
+</body>
+
+
+</html>
