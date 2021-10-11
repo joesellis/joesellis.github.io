@@ -54,7 +54,7 @@ a.button1:hover{
  }
 }
 
-a.button2{
+.button2{
      display: inline-block;
      padding: 0.5em 3em;
      border: 0.16em solid #FFFFFF;
