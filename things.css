@@ -16,7 +16,7 @@ h1, h3, p{
     border-color: white;
 }
 
-.dashboardButton, .dashboardButtonMore, .libraryButton, .libraryButtonAPI {
+.dashboardButton{
     background-color: transparent;
     border: 1px solid rgb(126, 114, 114);
     color: rgb(126, 114, 114);
@@ -39,16 +39,7 @@ h1, h3, p{
     transition: border-color,background-color .5s ease;
     white-space: nowrap;
   }
-.dashboardButtonMore, .dashPageMore{
-    background-color: rgb(255, 173, 31);
-    border: 1px solid rgb(255, 173, 31);
-    color: rgb(37, 36, 36) !important;
-    opacity: 0.7;
-  }
 
-  .dashboardButtonMore a:hover {
-    opacity: 0.9;
-  }
 .dashboardButton a:hover {
     opacity: 0.9;
   }
