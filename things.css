@@ -107,7 +107,7 @@ h1, h3, p{
     transition: border-color,background-color .5s ease;
     white-space: nowrap;
   }
-.dashboardButtonMore, .dashPageMore, .dashboardButton {
+.dashboardButtonMore, .dashPageMore{
     background-color: rgb(255, 173, 31);
     border: 1px solid rgb(255, 173, 31);
     color: rgb(37, 36, 36) !important;
