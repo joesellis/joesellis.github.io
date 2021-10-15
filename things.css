@@ -71,20 +71,13 @@ h1, h2, h3, p{
     text-overflow: ellipsis;
     transition: border-color,background-color .5s ease;
     white-space: nowrap;
-    -webkit-animation: bounce .3s infinite alternate;
-    -moz-animation: bounce .3s infinite alternate;
-    animation: bounce .3s infinite alternate;
+    
 }
 
-
-@-webkit-keyframes bounce {
-  to { -webkit-transform: scale(1.2); }
-}
-@-moz-keyframes bounce {
-  to { -moz-transform: scale(1.2); }
-}
-@keyframes bounce {
-  to { transform: scale(1.2); }
-}
+.dashboardButton1 a:hover {
+    opacity: 0.9;
+    fill:rgb(255, 173, 31);
+    transition: fill 2000ms linear;
+  }
 
 
