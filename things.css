@@ -44,6 +44,11 @@ h1, h2, h3, p{
     opacity: 0.9;
   }
 
+.dashboardButton:hover svg{
+  fill:rgb(255, 173, 31);
+  transition: fill 2000ms linear;
+} 
+
 .dashboardButton1, {
     background-color: transparent;
     border: 1px solid rgb(126, 114, 114);
