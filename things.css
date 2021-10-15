@@ -17,7 +17,7 @@ h1, h2, h3, p{
 }
 
 .dashboardButton{
-    background-color: transparent;
+    background-color: rgb(0, 170, 50);
     border: 1px solid rgb(126, 114, 114);
     color: rgb(126, 114, 114);
     font-family: MetricWeb,sans-serif;
