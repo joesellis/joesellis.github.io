@@ -201,3 +201,11 @@ h1, h2, h3, p{
   fill:green;
   transition: fill 2000ms linear;
 } 
+
+a:hover {
+  /* color: rgb(255, 173, 31); */
+  border-color: rgb(255, 173, 31);
+  text-decoration: none;
+  opacity:1;
+  border-color: rgb(255, 173, 31);
+}
