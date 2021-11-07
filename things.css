@@ -18,7 +18,7 @@ h1, h2, h3, p{
 
 
 .dashPage1, .dashPage1More {
-    border: 2px;
+    border: 5px;
     border-style: dashed;
     border-color: rgb(0,255,127);
     border-radius: 10px;
@@ -42,36 +42,27 @@ h1, h2, h3, p{
     
     text-decoration: none;
     
-    outline-offset: 2px;
+    outline-offset: 3px;
     overflow: hidden;
     text-align: center;
-    /* text-overflow: ellipsis;
-    transition: border-color,background-color .5s ease; */
     white-space: nowrap;
   }
 
-.rapidboards a.dashPage1:hover {
-    border: 5px;
-    border-style: solid;
-    border-color: rgb(0,255,0);
-    border-radius: 10px;    
-  }
-
-
-
-.dashPage1-title, .dashPage1-rubric {
+.dashPage1-title {
   margin: 0;
   font-family: MetricWeb,sans-serif;
-  font-size: 14px;
+  font-size: 30px;
   font-weight: 600;
   color: rgb(233, 233, 233)
 }
 
-
-.dashPage1-rubric{
+.dashPage1-rubric {
+  margin: 0;
+  font-family: MetricWeb,sans-serif;
+  font-size: 14px;
   font-weight: 400;
+  color: rgb(233, 233, 233)
 }
-
 
 
 .dashPage1:hover svg{
