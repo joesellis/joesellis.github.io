@@ -19,7 +19,7 @@ h1, h2, h3, p{
 
 .dashPage1, .dashPage1More {
     border: 5px;
-    border-style: dashed;
+    border-style: solid;
     border-color: rgb(0,255,127);
     border-radius: 10px;
 
