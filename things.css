@@ -27,12 +27,12 @@ h1, h2, h3, p{
 
     padding: 5px 12px;
 
-    max-width: 40%;
-    height: 200px;
+    max-width: 50%;
+    height: 400px;
     
     color: rgb(233, 233, 233);
     font-family: MetricWeb,sans-serif;
-    line-height: 30px;
+    line-height: 10px;
     font-weight: 600;
     
     box-sizing: content-box;
@@ -51,7 +51,7 @@ h1, h2, h3, p{
   }
 
 .rapidboards a.dashPage1:hover {
-    border: 2px;
+    border: 5px;
     border-style: solid;
     border-color: rgb(0,255,0);
     border-radius: 10px;    
