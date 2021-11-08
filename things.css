@@ -116,3 +116,16 @@ a:hover {
     max-width: 1170px;
   }
 }
+
+
+.flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+dashpage1.margin-right {
+  margin-right: 20px;
+}
