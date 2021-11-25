@@ -17,6 +17,15 @@ h1, h2, h3, p{
     border-color: white;
 }
 
+.chart1{
+    background-color: white;
+    width: 1000px;px;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+}
+
 
 .dashPage1, .dashPage1More {
     border: 5px;
