@@ -8,6 +8,18 @@ h1, h2, h3, p{
     text-align: center;
 }
 
+.bcontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;;
+    gap: 30px 30px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: white;
+    padding: 30px;
+    border-radius: 25px;
+  }
+
 .chart{
     background-color: white;
     width:330px;
@@ -19,7 +31,7 @@ h1, h2, h3, p{
 
 .chart1{
     background-color: white;
-    width:10000px;
+    width: 10000px;
     border-width: 10px;
     border-style: solid;
     border-radius: 5px;
