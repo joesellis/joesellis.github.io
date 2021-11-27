@@ -34,6 +34,15 @@ h1, h2, h3, p{
     padding: 20px;
   }
 
+  .chart{
+    background-color: white;
+    width: 100%;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: white;
+}
+
 
 .long_chart{
     background-color: white;
@@ -46,7 +55,7 @@ h1, h2, h3, p{
 
 .charts2{
     background-color: white;
-    width: 40%;
+    width: 45%;
     border-width: 10px;
     border-style: solid;
     border-radius: 5px;
