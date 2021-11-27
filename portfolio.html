@@ -61,7 +61,7 @@
     <!--A few charts from rapidcharts on prices -->
 
     <p>My next charts look at inflation, all taken from the <a href="https://rapidcharts.io/inflation">prices dashboard</a> on the <a href="https://rapidcharts.io">rapid charts</a> website                                            <br></p>
-    <div class="gap-10"></div> 
+    <div class="gap-20"></div> 
 
       <div class="charts3" id="chart3">
         <script>
@@ -94,25 +94,24 @@
      
 <container class="body_container">
 
-<p>The left chart tracks Covid-19 cases in Bristol, Brighton, and Swindon using a live API. The right chart does this using a stored CSV file.</p>
-<div class="gap-20"></div>
+  <p>The left chart tracks Covid-19 cases in Bristol, Brighton, and Swindon using a live API. The right chart does this using a stored CSV file.</p>
+  <div class="gap-20"></div>
 
-
-    <div class="charts2" id="chart6">
+  <div class="charts2" id="chart6">
 
       <script>
-        var myChart6 = "json/API_Chart_Week2_JE.json";
-        vegaEmbed('#chart6', myChart6);
+          var myChart6 = "API_Chart_Week2_JE.json";
+          vegaEmbed('#chart6', myChart6);
       </script>
 
-    </div>
+  </div>
 
-    <div class="charts2" id="chart7">
+  <div class="charts2" id="chart7">
       <script>
-        var myChart7 = "json/CSV_Chart2.json";
-        vegaEmbed('#chart7', myChart7);
+          var myChart7 = "CSV_Chart2.json";
+          vegaEmbed('#chart7', myChart7);
       </script>
-    </div>    
+  </div>    
 
 </container>
     
