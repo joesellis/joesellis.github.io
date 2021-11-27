@@ -38,7 +38,7 @@
 
   <p>The first chart tracks Covid-19 cases by UK region</p>
 
-    <div class="chart" id="chart1">
+    <div class="long_chart" id="chart1">
         <script>
           // First job is to set the chart as a JS variable:
           var myChart1 = "json/chart1_covidUKRegions.json";
@@ -53,7 +53,7 @@
 
     <p>The second chart looks at productivity in the UK. Interestingly, productivity growth slowed down in 2006 and has not recovered</p>  
 
-    <div class="chart" id="chart2">
+    <div class="long_chart" id="chart2">
       <script>
         var myChart2 = "json/chart2_ukProductivity.json";
         vegaEmbed('#chart2', myChart2);
@@ -65,19 +65,19 @@
 
     <p>My next charts look at inflation, all taken from the <a href="https://rapidcharts.io/inflation">prices dashboard</a> on the <a href="https://rapidcharts.io">rapid charts</a> website                                            <br></p>
     <div class="gap-10"></div> 
-      <div class="chart" id="chart3">
+      <div class="charts3" id="chart3">
         <script>
           var myChart3 = "json/RD_TopRisers.json";
           vegaEmbed('#chart3', myChart3);
         </script>
       </div>
-      <div class="chart" id="chart4">
+      <div class="charts3" id="chart4">
         <script>
           var myChart4 = "json/RD_TopFallers.json";
           vegaEmbed('#chart4', myChart4);
         </script>
       </div>
-      <div class="chart" id="chart5">
+      <div class="charts3" id="chart5">
         <script>
           var myChart5 = "json/RD_InfSources.json";
           vegaEmbed('#chart5', myChart5);
@@ -100,7 +100,7 @@
 <div class="gap-10"></div>
 
 
-    <div class="chart" id="chart6">
+    <div class="charts2" id="chart6">
 
       <script>
         var myChart6 = "json/API_Chart_Week2_JE.json";
@@ -109,7 +109,7 @@
 
     </div>
 
-    <div class="chart2" id="chart7">
+    <div class="charts2" id="chart7">
       <script>
         var myChart7 = "json/CSV_Chart2.json";
         vegaEmbed('#chart7', myChart7);

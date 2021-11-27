@@ -34,22 +34,8 @@ h1, h2, h3, p{
     padding: 20px;
   }
 
-  .chart2 {
-    background-color: white;
-    border-style: solid;
-    border-color: white;
-    border-width: 3px;
-    border-radius: 25px;
-    text-align: center;
-    padding: 20px;
-    transition: border-radius 400ms, flex-grow 1000ms;
-    width: 45%;
-    min-width: 350px;
-    
-  }
 
-
-.chart{
+.long_chart{
     background-color: white;
     width: 100%;
     border-width: 10px;
@@ -58,7 +44,16 @@ h1, h2, h3, p{
     border-color: white;
 }
 
-#chart4, #chart3, #chart5{
+.charts2{
+    background-color: white;
+    width: 40%;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.charts3{
     background-color: white;
     width:30%;
     border-width: 10px;
@@ -67,9 +62,7 @@ h1, h2, h3, p{
     border-color: white;
 }
 
-#chart6, #chart7{
-    width: 45%;
-}
+
 
 
 .dashPage1, .dashPage1More {
