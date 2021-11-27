@@ -23,7 +23,7 @@
   },
 
   "height":400,
-  "width":300,
+  "width":"container",
 
   "selection": {
       "paintbrush": {"type": "multi", "on": "mouseover", "nearest": true}
