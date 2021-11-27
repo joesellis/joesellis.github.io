@@ -34,6 +34,20 @@ h1, h2, h3, p{
     padding: 20px;
   }
 
+  .chart2 {
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+    transition: border-radius 400ms, flex-grow 1000ms;
+    width: 45%;
+    min-width: 350px;
+    
+  }
+
 
 .chart{
     background-color: white;
