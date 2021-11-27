@@ -33,30 +33,26 @@
 
     <p>The first chart tracks Covid-19 cases by UK region.</p>
 
-<!--Vega embed, with notes for what is going on-->
-<div class="chart1" id="firstChart">
 
-  <script>
-    // Following the script tag we are using Javascript.
-    // One way to tell is to see how comments work...
-    // First job is to set the chart as a JS variable:
-    var myChart1 = "json/chart1_covidUKRegions.json";
-    // Now we simply insert it, using Vega's embed code:
-    // The embed function needs to be told the location, and what to put there. 
-    vegaEmbed('#firstChart', myChart1);
-  </script>
-</div>
-
-
-<container class="bcontainer">
+<container class="body_container">
 
   <!--Chart 1 showing Covid Cases by Region -->
 
-    <div class="chart" id="chart111">
+    <div class="long_chart" id="firstChart">
         <script>
-          var myChart111 = "json/chart1_covidUKRegions.json";
-          vegaEmbed('#chart111', myChart111);
+          // First job is to set the chart as a JS variable:
+          var myChart1 = "json/chart1_covidUKRegions.json";
+          // Now we simply insert it, using Vega's embed code:
+          // The embed function needs to be told the location, and what to put there. 
+          vegaEmbed('#firstChart', myChart1);
         </script>
+
+    <div class="long_chart" id="secondChart">
+    <script>
+      var myChart2 = "json/chart2_ukProductivity.json";
+      vegaEmbed('#secondChart', myChart2);
+    </script>
+    </div>
 
 </div>
   </container>
