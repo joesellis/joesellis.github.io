@@ -29,48 +29,65 @@
     
     <h2>This website will host my portfolio.</h2>
 
-    <h3>Covid-19</h3>
-
-    <p>The first chart tracks Covid-19 cases by UK region.</p>
+    <h3>Homework 1 was to build this site, so we start with Homework 2. The task here was to embed charts from the <a href="https://rapidcharts.io">rapid charts</a> website.</h3>
 
 
 <container class="body_container">
 
   <!--Chart 1 showing Covid Cases by Region -->
 
-    <div class="long_chart" id="firstChart">
+  <p>The first chart tracks Covid-19 cases by UK region.</p>
+
+    <div class="chart" id="chart1">
         <script>
           // First job is to set the chart as a JS variable:
           var myChart1 = "json/chart1_covidUKRegions.json";
           // Now we simply insert it, using Vega's embed code:
           // The embed function needs to be told the location, and what to put there. 
-          vegaEmbed('#firstChart', myChart1);
+          vegaEmbed('#chart1', myChart1);
         </script>
 
-    </div>  
+    </div>
 
-    <div class="long_chart" id="secondChart">
-    <script>
-      var myChart2 = "json/chart2_ukProductivity.json";
-      vegaEmbed('#secondChart', myChart2);
-    </script>
+    <!--Chart 2 showing UK productivity -->
+
+    <p>The second chart looks at productivity in the UK. Interestingly, productivity growth slowed down in 2006 and has not recovered.</p>  
+
+    <div class="chart" id="chart2">
+      <script>
+        var myChart2 = "json/chart2_ukProductivity.json";
+        vegaEmbed('#chart2', myChart2);
+      </script>
     </div>
 
 
+</html> 
+
+    <!--A few charts from rapidcharts on prices -->
+
+    <p>My next charts look at inflation, all taken from the <a href="https://rapidcharts.io/inflation">prices dashboard</a> on the <a href="https://rapidcharts.io">rapid charts</a> website                                            <br></p>
+    <div class="gap-10"></div> 
+      <div class="chart" id="chart3">
+        <script>
+          var myChart3 = "json/RD_TopRisers.json";
+          vegaEmbed('#chart3', myChart3);
+        </script>
+      </div>
+      <div class="chart" id="chart4">
+        <script>
+          var myChart4 = "json/RD_TopFallers.json";
+          vegaEmbed('#chart4', myChart4);
+        </script>
+      </div>
+      <div class="chart" id="chart5">
+        <script>
+          var myChart3 = "json/RD_InfSources.json";
+          vegaEmbed('#chart5', myChart5);
+        </script>
+      </div>
+
+
   </container>
-
-
-
-  <h3>The UK productivity puzzle</h3>
-
-  <p>My second chart looks at productivity in the UK. Interestingly, productivity growth slowed down in 2006 and has not recovered.</p>
-
-<div class="chart" id="secondChart">
-  <script>
-    var myChart2 = "json/chart2_ukProductivity.json";
-    vegaEmbed('#secondChart', myChart2);
-  </script>
-</div>
     
       <h3>My third chart tracks the top 10 cryptocurrencies by market capitalisation</h3>
       <p>Bitcoin remains top dog. This chart was taken from the <a href="https://rapidcharts.io">rapid charts</a> website.</p>
