@@ -53,6 +53,10 @@ h1, h2, h3, p{
     border-color: white;
 }
 
+#chart6, #chart7{
+    width: 45%;
+}
+
 
 .dashPage1, .dashPage1More {
     border: 5px;

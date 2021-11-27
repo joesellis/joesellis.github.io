@@ -36,7 +36,7 @@
 
   <!--Chart 1 showing Covid Cases by Region -->
 
-  <p>The first chart tracks Covid-19 cases by UK region.</p>
+  <p>The first chart tracks Covid-19 cases by UK region</p>
 
     <div class="chart" id="chart1">
         <script>
@@ -51,7 +51,7 @@
 
     <!--Chart 2 showing UK productivity -->
 
-    <p>The second chart looks at productivity in the UK. Interestingly, productivity growth slowed down in 2006 and has not recovered.</p>  
+    <p>The second chart looks at productivity in the UK. Interestingly, productivity growth slowed down in 2006 and has not recovered</p>  
 
     <div class="chart" id="chart2">
       <script>
@@ -85,38 +85,36 @@
       </div>
 
 </container>
+
     <div class="gap-20"></div> 
 
-     <h3>Homework 3 was to embed 2 charts of my own design</h3>
-     <container class="body_container">
+    <!--Homework 3-->
 
+     <h3>Homework 3 was to embed 2 charts of my own design.</h3>
 
+     <div class="gap-10"></div>
      
+<container class="body_container">
+
+<p>The left chart tracks Covid-19 cases in Bristol, Brighton, and Swindon using a live API. The right chart does this using a stored CSV file.</p>
+<div class="gap-10"></div>
 
 
-    
-    <p>The fourth chart tracks Covid-19 cases in Bristol, Brighton, and Swindon using a live API</p>
+    <div class="chart" id="chart6">
 
-<!--Vaga embed, with notes for what is going on-->
-<div class="chart" id="fourthChart">
+      <script>
+        var myChart6 = "json/API_Chart_Week2_JE.json";
+        vegaEmbed('#chart6', myChart6);
+      </script>
 
-  <script>
-    var myChart4 = "json/API_Chart_Week2_JE.json";
-    vegaEmbed('#fourthChart', myChart4);
-  </script>
+    </div>
 
-</div>
-
-
-
-  <p>My fifth chart also does this, using a stored CSV file. It doesn't appear to be doing a very good job...</p>
-
-<div class="chart" id="fifthChart">
-  <script>
-    var myChart5 = "json/CSV_Chart2.json";
-    vegaEmbed('#fifthChart', myChart5);
-  </script>
-</div>    
+    <div class="chart" id="chart7">
+      <script>
+        var myChart7 = "json/CSV_Chart2.json";
+        vegaEmbed('#chart7', myChart7);
+      </script>
+    </div>    
 
 </container>
     
