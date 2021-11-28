@@ -1,60 +1,60 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    
-    "title": {
-      "text": "My COVID chart",
-      "subtitle":"This is a new chart",
-      "subtitleFontStyle":"italic",
-      "subtitleFontSize":10,
-      "anchor": "start",
-      "color": "black"
-    },
-    
-     "data": {
-      "url": "https://raw.githubusercontent.com/joesellis/joesellis.github.io/main/myCovidData.csv",
-      "format": {"type": "csv"}
-    },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   
-     "transform":[
-        
-        {"filter": {
-          "field": "areaName", 
-          "oneOf": ["Brighton and Hove", "Bristol, City of", "Swindon"]}
-          }
+  "title": {
+    "text": "My COVID chart",
+    "subtitle":"Covid",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+  
+   "data": {
+    "url": "https://raw.githubusercontent.com/joesellis/joesellis.github.io/main/BBL_COVIDRATES_APIC.csv",
+    "format": {"type": "csv"}
+  },
+
+   "transform":[
+      
+      {"filter": {
+        "field": "areaName", 
+        "oneOf": ["Brighton and Hove", "Bristol, City of", "Hackney and City of London"]}
+        }
+
+
+    ],
   
   
-      ],
-    
-    
-    "height": 300,
-    "width": "container",
-     
-    "mark": {"type": "line", "point": false},
+  "height": 300,
+  "width": "container",
    
-    "encoding": {
-  
-      "x": {
-        "field": "date",
-        "type": "temporal",
-        "title": null,
-        "axis": {"grid": false}
-      },
-  
-      "y": {
-        "field": "newCasesBySpecimenDate",
-        "type": "quantitative",
-        "title": null,
-        "axis": {"grid": false}
-      },
-  
-      "color": {
-        "field": "areaName",
-        "type": "nominal",
-        "scale": {"scheme": "set1"},
-        "title": null,
-        "legend": {
-          "orient": "top-left", 
-          "fillColor": "#FcFdFd"}
-      }
-  }
-  }
+  "mark": {"type": "line", "point": false},
+ 
+  "encoding": {
+
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}
+    },
+
+    "y": {
+      "field": "newCasesBySpecimenDateRollingRate",
+      "type": "quantitative",
+      "title": null,
+      "axis": {"grid": false}
+    },
+
+    "color": {
+      "field": "areaName",
+      "type": "nominal",
+      "scale": {"scheme": "set1"},
+      "title": null,
+      "legend": {
+        "orient": "top-left", 
+        "fillColor": "#FcFdFd"}
+    }
+}
+}
