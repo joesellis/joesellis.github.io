@@ -1,0 +1,49 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Average weekly hours worked, UK",
+      "subtitle": "Full time workers. Source: ONS",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black",
+      "subtitleColor": "black"
+    },
+    "width": "container",
+    "height": 300,
+    "description": "Average hours worked in the UK from 1992-2020",
+    "data": {
+      "values": [
+        {"Year": "1992", "Hours": 38.1}, {"Year": "1996", "Hours": 38.7}, {"Year": "2000", "Hours": 37.9}, {"Year": "2004", "Hours": 37.3}, {"Year": "2008", "Hours": 37.1}, {"Year": "2012", "Hours": 37.4}, {"Year": "2016", "Hours": 37.5}, {"Year": "2020", "Hours": 33.7}
+      ]
+    },
+    
+    "mark": {
+      "type": "line",
+      "point": true,
+      "tooltip": true,
+      "color": "limegreen"
+    },
+    "encoding": {
+      "x": {
+            "timeUnit": "yearmonthdate",
+            "field": "Year",
+            "type": "temporal",
+            "title": "Year",
+            "axis": {
+              "format": "%Y",
+              "title": null,
+              "grid": true,
+              "ticks": false,
+              "labelAngle": 0
+            }
+          },
+      "y": {
+        "field": "Hours", 
+        "type": "quantitative",
+        "title": "Average weekly hours worked",
+        "axis": {"grid": true},
+        "scale": {"domain": [32, 40]}
+        }
+    }
+  }
