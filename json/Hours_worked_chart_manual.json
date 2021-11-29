@@ -35,7 +35,8 @@
               "title": null,
               "grid": true,
               "ticks": false,
-              "labelAngle": 0
+              "labelAngle": 0,
+              "scale": {"domain": [1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020]}
             }
           },
       "y": {
