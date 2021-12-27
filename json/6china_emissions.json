@@ -1,0 +1,37 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "China Carbon Monoxide Levels",
+      "subtitle": "Average daily carbon monoxide concentration. Source: Emissions-API.org",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/joesellis/joesellis.github.io/main/json/monoxide_dataCN.json"
+    },
+      "mark":{
+        "type": "line",
+        "color":"greenyellow",
+        "strokeWidth":1,
+        "opacity":1
+      },
+    "height": 300,
+    "width": "container",
+    "encoding": {
+      "x": {
+        "field": "end",
+        "type": "temporal",
+        "title": null,
+        "axis": {"grid": false}
+      },
+      "y": {
+        "field": "average",
+        "type": "quantitative",
+        "title": null,
+        "axis": {"grid": false},
+        "scale": {"domain": [0.01, 0.055]}
+      }
+    }
+  }
