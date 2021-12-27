@@ -1,0 +1,40 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "US Consumer Sentiment",
+      "subtitle": "Source: AlphaVantage via FRED. Index 1966:Q1=100",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {
+      "url": "https://www.alphavantage.co/query?function=CONSUMER_SENTIMENT&apikey=OPCZBLLHVTM4U2EP",
+      "format": {"type": "json", "property": "data"}
+    },
+    "transform": [
+      {"filter": "datum.value > 0"}
+      ],
+      "mark":{
+        "type": "line",
+        "color":"red",
+        "strokeWidth":2,
+        "opacity":1
+      },
+    "height": 400,
+    "width": "container",
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "title": "Date"
+      },
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Consumer Sentiment",
+        "axis": {"grid": true},
+        "scale": {"domain": [40, 130]}
+      }
+    }
+  }

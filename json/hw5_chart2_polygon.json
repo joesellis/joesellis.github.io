@@ -1,0 +1,38 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "This chart looks at the difference between the opening and closing price of Polygon over 24H periods. We see that it rarely has continued growth, there are down days very often.",
+    "title": {
+      "text": "Polygon open:close trading range",
+      "subtitle": "USD Difference between opening and closing price in each 24H period. Source: coinapi.io",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {
+      "url": "https://rest.coinapi.io/v1/ohlcv/MATIC/USD/history?period_id=1DAY&time_start=2021-10-12T00:00:00&limit=100&include_empty_items=false&apikey=%20E3B0886E-ECE0-47A6-AE0B-B71586308B39"
+    },
+    "transform": [{"calculate": "datum.price_open - datum.price_close", "as": "price_change"}],
+
+      "mark":{
+        "type": "line",
+        "color":"red",
+        "strokeWidth":2,
+        "opacity":1
+      },
+    "height": 400,
+    "width": "container",
+    "encoding": {
+      "x": {
+        "field": "time_close",
+        "type": "temporal",
+        "title": null
+      },
+      "y": {
+        "field": "price_change",
+        "type": "quantitative",
+        "title": "Polygon Price Change",
+        "axis": {"grid": true}
+      }
+    }
+  }
