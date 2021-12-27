@@ -171,35 +171,52 @@
 </div>    
 
 </container>
-    
-<div class="gap-10"></div>
 
 <!--Homework 6-->
 
-<h3>Homework 6 was to create a dashboard of 4 charts using a for loop to cycle through .</h3>
+<h3>Homework 6 was to create 4 charts using iteratively collected data.</h3>
 
 <container class="body_container">
 
-<p>Find an API, call it 4 times, save as csv.</p>
+<p>These charts are driven by csv files saved using a for loop in python.</p>
 <div class="gap-10"></div>
 
-<div class="charts2" id="chart10">
+<div class="charts2" id="myChart12">
 
  <script>
-     var myChart10 = "json/hw5_chart1_sentiment.json";
-     vegaEmbed('#chart10', myChart10);
+     var myChart12 = "json/6china_emissions.json";
+     vegaEmbed('#chart12', myChart12);
  </script>
 
 </div>
 
-<div class="charts2" id="chart11">
+<div class="charts2" id="chart13">
  <script>
-     var myChart11 = "json/hw5_chart2_polygon.json";
-     vegaEmbed('#chart11', myChart11);
+     var myChart13 = "json/6germany_emissions.json";
+     vegaEmbed('#chart13', myChart13);
  </script>
-</div> 
+</div>    
+
+<div class="charts2" id="myChart14">
+
+  <script>
+      var myChart14 = "json/6usa_emissions.json";
+      vegaEmbed('#chart14', myChart14);
+  </script>
+ 
+ </div>
+ 
+ <div class="charts2" id="chart15">
+  <script>
+      var myChart15 = "json/6uk_emissions.json";
+      vegaEmbed('#chart15', myChart15);
+  </script>
+ </div> 
+
+</container>
     
 </body>
 
 
 </html>
+
