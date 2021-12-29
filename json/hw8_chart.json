@@ -1,0 +1,25 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "description": "Education index vs GNI",
+    "title": {
+      "text": "Education and Wealth",
+      "subtitle": "GNI per capita and education index. Source: UN",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 11,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {"url": "https://raw.githubusercontent.com/joesellis/joesellis.github.io/main/hw8_data.csv"},
+    "mark": {"type": "circle", "opacity": 0.8, "color":"seagreen", "size": 80},
+    "height": 300,
+    "width": "container",
+    "encoding": {
+      "x": {"field": "Education Index", "type": "quantitative"},
+      "y": {"field": "GNI Per Capita", "type": "quantitative"},
+      "tooltip": [
+        {"field": "Country", "type": "nominal"},
+        {"field": "Education Index", "type": "quantitative"},
+        {"field": "GNI Per Capita", "type": "quantitative"}
+      ]
+    }
+  }
