@@ -1,0 +1,68 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "title": {
+      "text": "Lockdown Stringency",
+      "subtitle":"As rated by oxford.",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+  "selection": {
+      "Location": {"type": "multi", "fields": ["country_code"], "bind": "legend"}
+    },
+    "description": "Coronavirus cases",
+    "data": {
+      "url": "https://raw.githubusercontent.com/joesellis/joesellis.github.io/main/proj_stringency_time.csv",
+      "format": {"type": "csv"}
+    },
+    "height": 300,
+    "width": 300,
+    "mark":{"type": "line", "interpolate":"monotone"},
+    "encoding": {
+    "x": { "field": "Date", "type":"temporal","title":"Date"}},
+  "layer": [
+    {
+      "encoding": {
+        "color": {"field": "country_code", "type": "nominal"},
+        "y": {"field": "Stringency", "type": "quantitative"}
+      },
+      "layer": [
+        {"mark": "line", "interpolate":"monotone"},
+        {"transform": [{"filter": {"param": "hover", "empty": false}}], "mark": "point"}
+      ]
+    },
+    {
+      "transform": [{"pivot": "country_code", "value": "Stringency", "groupby": ["Date"]}],
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "condition": {"value": 0.3, "param": "hover", "empty": false},
+          "value": 0
+        },
+        "tooltip": [
+          {"field": "ARG", "type": "quantitative"},
+          {"field": "BRA", "type": "quantitative"},
+          {"field": "CHN", "type": "quantitative"},
+          {"field": "DEU", "type": "quantitative"},
+          {"field": "GBR", "type": "quantitative"},
+          {"field": "IND", "type": "quantitative"},
+          {"field": "JPN", "type": "quantitative"},
+          {"field": "RUS", "type": "quantitative"},
+          {"field": "USA", "type": "quantitative"}
+        ]
+      },
+      "params": [{
+        "name": "hover",
+        "select": {
+          "type": "point",
+          "fields": ["Date"],
+          "nearest": true,
+          "on": "mouseover",
+          "clear": "mouseout"
+        }
+      }]
+    }
+  ]
+    }
