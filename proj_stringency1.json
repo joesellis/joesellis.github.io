@@ -1,0 +1,36 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "title": {
+      "text": "Lockdown Stringency",
+      "subtitle":"As rated by oxford.",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+  "selection": {
+      "Location": {"type": "multi", "fields": ["country_code"], "bind": "legend"}
+    },
+    "description": "Coronavirus cases",
+    "data": {
+      "url": "https://raw.githubusercontent.com/joesellis/joesellis.github.io/main/proj_stringency_time.csv",
+      "format": {"type": "csv"}
+    },
+    "height": 300,
+    "width": 300,
+    "mark":{"type": "line", "interpolate":"monotone"},
+    "encoding": {
+    "x": { "field": "Date", "type":"temporal","title":"Date", "labels":"false"},
+    "y": {"field": "Stringency", "type": "quantitative", "title": "Change in GDP (%)"},
+    "color": {"field": "country_code", "type": "nominal"},
+    "opacity": {"condition": {"selection": "Location", "value": 2}, "value": 0.05},
+    "tooltip": [
+          {"field": "country_code", "type": "quantitative"},
+          {"field": "AMZN", "type": "quantitative"},
+          {"field": "GOOG", "type": "quantitative"},
+          {"field": "IBM", "type": "quantitative"},
+          {"field": "MSFT", "type": "quantitative"}
+        ]
+    }
+  }
