@@ -1,25 +1,23 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  
-    "description": "Emissions data using satellite imagary",
-    
-    "data": {"url": "https://raw.githubusercontent.com/joesellis/joesellis.github.io/main/hw7_bristol.csv",
-    "format": {"type": "csv"}
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+      "text": "House price by Number of Bedrooms",
+      "subtitle": "Data scraped from Rightmove.co.uk",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
     },
-    "mark": "point",
-    "height":500, 
-    "width":500,
-    
-    "encoding": {
-      
-      "x": {
-        "field": "Bedrooms",
-        "type": "quantitative"
-        },
-  
-      "y": {
-        "field": "Price",
-        "type": "quantitative"
-        }
-    }
+  "description": "HW7: Data scraped from rightmove.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/joesellis/joesellis.github.io/main/hw7_bristol.csv",
+    "format": {"type": "csv"}
+  },
+  "mark": {"type": "point", "tooltip":true},
+  "height": 350,
+  "width": "container",
+  "encoding": {
+    "x": {"field": "Bedrooms", "type": "quantitative", "title":"No. of Bedrooms"},
+    "y": {"field": "Price", "type": "quantitative", "title": "Price (£)"}
   }
+}
