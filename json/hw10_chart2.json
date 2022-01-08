@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description":"Inflation, Unemployment and wage growth interactive for homework 10."
+    "description":"Inflation, Unemployment and wage growth interactive for homework 10.",
 
     "data": {
        "url": "https://api.allorigins.win/raw?url=https://api.ons.gov.uk/timeseries/kac3/dataset/lms/data",
