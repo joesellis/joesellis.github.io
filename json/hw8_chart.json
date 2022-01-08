@@ -3,7 +3,7 @@
       "description": "Education index vs GNI",
     "title": {
       "text": "Education and Wealth",
-      "subtitle": "GNI per capita and education index. Source: UN",
+      "subtitle": "Education Index and GNI per capita. Source: UN",
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 11,
       "anchor": "start",
