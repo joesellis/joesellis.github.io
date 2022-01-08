@@ -9,6 +9,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="things.css">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
@@ -27,9 +28,38 @@
 
     <h1>Data Science 2021, by Joe Ellis</h1>
     
-    <h2>This website will host my project.</h2>
+    <h2>My project aims to explore the economic effects of COVID-19 and lockdowns.</h2>
 
-    <h3>You might think this website looks rather empty, that is because it is.</h3>
+    <h3></h3>
+
+
+<!--Chart 1, simple GDP growth chart-->
+
+    <h3>I decided to first look at the GDP effects of several countries.</h3>
+
+    <container class="body_container">
+    
+    <p>OECD data. 
+        The colab notebook is available <a href="https://github.com/joesellis/joesellis.github.io/blob/main/ipynb/proj_gdp_cleaning.ipynb">here.</a>
+    </p>
+    <div class="gap-10"></div>
+    
+    <div class="charts2" id="chart30">
+    
+     <script>
+         var myChart30 = "json/proj_chart1_gdp.json";
+         vegaEmbed('#chart30', myChart30);
+     </script>
+    
+    </div>
+       
+    
+    </container>
+
+
+
+
+
 
      
     
