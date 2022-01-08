@@ -1,0 +1,67 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Forest Coverage in Select Nations over time, interactive.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/joesellis/joesellis.github.io/main/hw10_forest_cover_ten.csv",
+      "format": {"type": "csv"}
+    },
+    "title": {
+      "text": "Forest coverage in various countries",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "subtitle":"Forest coverage of 10 nations, from 1990-2016. Source: UN",
+      "anchor": "start",
+      "color": "black"
+    },
+    "height": 300,
+    "width": "container",
+    "mark": {"type": "rule", "size": 15},
+    "selection": {
+      "Year": {
+        "type": "single",
+        "fields": ["Year"],
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "1990",
+            "1995",
+            "2000",
+            "2005",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016"
+          ],
+          "name": "Year: "
+        }
+      }
+    },
+    "transform": [
+      {"filter": {
+        "selection": "Year"
+        }
+      }
+    ],
+    "encoding": {
+      "x": {"field": "Country", "type": "nominal"},
+      "y": {
+        "field": "Forest Coverage", "type": "quantitative",
+        "axis": {"title": "Forest Coverage %"}, "stack": null
+      },
+      "tooltip": [
+        {"field": "Country", "type": "nominal", "title": "Country"},
+        {"field": "Year"},
+        {"field": "Forest Coverage", "type": "quantitative", "title": "Forest Coverage %"}],
+      "color": {
+        "field": "Forest Coverage",
+        "type": "nominal",
+        "legend": null,
+        "scale": {"scheme": "greens"}
+    
+      }
+    }
+  }
