@@ -19,7 +19,7 @@
       "type": "line",
       "point": true
     },
-    "width": "500",
+    "width": "container",
     "height": "350",
     "encoding": {
       "x": { "field": "Date", "type":"temporal","title":null, "axis": {"grid": false}},
