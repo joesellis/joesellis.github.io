@@ -11,7 +11,7 @@
 
 
     "title": {
-        "text": "Economic Indicators",
+        "text": "Economic Indicators in the UK",
         "subtitle": "Source: ONS API",
         "subtitleFontStyle":"italic",
         "subtitleFontSize":10,
