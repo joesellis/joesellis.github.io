@@ -1,0 +1,247 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Selected gov.uk COVID APIs and ONS APIs. Fully automated.",
+  "data": {
+  "url": "https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=newCasesBySpecimenDateRollingRate&format=csv",
+  "format": {"type": "csv"}
+},
+        
+  "title": {
+      "text": "UK COVID, Vaccines, and Economic Indicators",
+      "subtitle": "Sources: ONS APIs, UK Government COVID APIs.",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"},
+
+  "width":550,
+  "height":300,
+
+      "params": [    
+  {"name":"minYear", "value":2020}
+],
+ "transform": [
+   
+
+    {"calculate":"replace(datum.date, ' JAN', '-01')", "as":"date1"},
+    {"calculate":"replace(datum.date1, ' FEB', '-02')", "as":"date2"},
+    {"calculate":"replace(datum.date2, ' MAR', '-03')", "as":"date3"},
+    {"calculate":"replace(datum.date3, ' APR', '-04')", "as":"date4"},
+    {"calculate":"replace(datum.date4, ' MAY', '-05')", "as":"date5"},
+    {"calculate":"replace(datum.date5, ' JUN', '-06')", "as":"date6"},
+    {"calculate":"replace(datum.date6, ' JUL', '-07')", "as":"date7"},
+    {"calculate":"replace(datum.date7, ' AUG', '-08')", "as":"date8"},
+    {"calculate":"replace(datum.date8, ' SEP', '-09')", "as":"date9"},
+    {"calculate":"replace(datum.date9, ' OCT', '-10')", "as":"date10"},
+    {"calculate":"replace(datum.date10, ' NOV', '-11')", "as":"date11"},
+    {"calculate":"replace(datum.date11, ' DEC', '-12')", "as":"date12"},
+
+    {"calculate":"timeParse(datum.date12, '%Y-%m')", "as": "dateClean"},
+
+    {"calculate":"replace(datum.quarter, '', '')", "as": ""},
+
+    {"filter": "datum.year>=minYear"}
+  ],
+
+
+  "encoding": {
+    "x": {
+        "field": "dateClean",
+        "type": "temporal",
+        "title":null,
+        "axis": {
+      "title": null,
+      "grid": false,
+      "ticks": true
+    }}, 
+    "color": {
+    "field": "name", 
+    "type": "ordinal", 
+    "title":null,
+    "scale": {"scheme": "tableau20"},
+    "scale": {"range": ["#008080","#00BFFF", "#0276FD", "#001580", "#a4aff5", "#3c4791"]},
+    "legend":{"orient": "top"}}
+    
+    },
+
+"layer":[
+  
+  {"data": {"url": "https://api.allorigins.win/raw?url=https://api.ons.gov.uk/timeseries/kac3/dataset/lms/data",
+  "format": {"type":"json", "property": "months"}},
+
+  "transform": [
+    {"calculate":"datum.value", "as":"Wages_Value"},
+
+    {"calculate":"replace(datum.date, ' JAN', '-01')", "as":"date1"},
+    {"calculate":"replace(datum.date1, ' FEB', '-02')", "as":"date2"},
+    {"calculate":"replace(datum.date2, ' MAR', '-03')", "as":"date3"},
+    {"calculate":"replace(datum.date3, ' APR', '-04')", "as":"date4"},
+    {"calculate":"replace(datum.date4, ' MAY', '-05')", "as":"date5"},
+    {"calculate":"replace(datum.date5, ' JUN', '-06')", "as":"date6"},
+    {"calculate":"replace(datum.date6, ' JUL', '-07')", "as":"date7"},
+    {"calculate":"replace(datum.date7, ' AUG', '-08')", "as":"date8"},
+    {"calculate":"replace(datum.date8, ' SEP', '-09')", "as":"date9"},
+    {"calculate":"replace(datum.date9, ' OCT', '-10')", "as":"date10"},
+    {"calculate":"replace(datum.date10, ' NOV', '-11')", "as":"date11"},
+    {"calculate":"replace(datum.date11, ' DEC', '-12')", "as":"date12"},
+
+    {"calculate":"timeParse(datum.date12, '%Y-%m')", "as": "dateClean"},
+
+    {"calculate":"replace(datum.quarter, '', 'Wage Growth (%)')", "as": "name"},
+
+    {"filter": "datum.year>=minYear"}
+  ],
+
+  "mark":{"type": "line", "point":true, "interpolate":"monotone"},
+
+  "encoding": {"y": {"field": "value", "type": "quantitative","title":"%", "color": "name"},
+  "tooltip": [
+    {"field": "value", "type": "quantitative", "title": "Wage growth %"},
+    {"field": "dateClean", "type": "temporal", "title": "Date"}
+  ]
+  }
+},
+
+
+{"data": {"url": "https://api.allorigins.win/raw?url=https://api.ons.gov.uk/timeseries/l55o/dataset/mm23/data",
+  "format": {"type":"json", "property": "months"}},
+
+  "transform": [
+    {"calculate":"datum.value", "as":"Inflation_Value"},
+
+    {"calculate":"replace(datum.date, ' JAN', '-01')", "as":"date1"},
+    {"calculate":"replace(datum.date1, ' FEB', '-02')", "as":"date2"},
+    {"calculate":"replace(datum.date2, ' MAR', '-03')", "as":"date3"},
+    {"calculate":"replace(datum.date3, ' APR', '-04')", "as":"date4"},
+    {"calculate":"replace(datum.date4, ' MAY', '-05')", "as":"date5"},
+    {"calculate":"replace(datum.date5, ' JUN', '-06')", "as":"date6"},
+    {"calculate":"replace(datum.date6, ' JUL', '-07')", "as":"date7"},
+    {"calculate":"replace(datum.date7, ' AUG', '-08')", "as":"date8"},
+    {"calculate":"replace(datum.date8, ' SEP', '-09')", "as":"date9"},
+    {"calculate":"replace(datum.date9, ' OCT', '-10')", "as":"date10"},
+    {"calculate":"replace(datum.date10, ' NOV', '-11')", "as":"date11"},
+    {"calculate":"replace(datum.date11, ' DEC', '-12')", "as":"date12"},
+
+    {"calculate":"timeParse(datum.date12, '%Y-%m')", "as": "dateClean"},
+
+    {"calculate":"replace(datum.quarter, '', 'Inflation (%)')", "as": "name"},
+
+    {"filter": "datum.year>=minYear"}
+  ],
+
+  "mark":{"type": "line",  "point":true, "interpolate":"monotone"},
+
+  "encoding": {"y": {"field": "value", "type": "quantitative","title":"%", "color": "name"},
+  "tooltip": [
+    {"field": "value", "type": "ordinal", "title": "Inflation %"},
+    {"field": "dateClean", "type": "temporal", "title": "Date"}
+  ]
+  
+  }
+}
+,
+
+{"data": {"url": "https://api.allorigins.win/raw?url=https://api.ons.gov.uk/timeseries/eask/dataset/drsi/data",
+  "format": {"type":"json", "property": "months"}},
+
+  "transform": [
+    {"calculate":"datum.value", "as":"Online_Value"},
+
+    {"calculate":"replace(datum.date, ' JAN', '-01')", "as":"date1"},
+    {"calculate":"replace(datum.date1, ' FEB', '-02')", "as":"date2"},
+    {"calculate":"replace(datum.date2, ' MAR', '-03')", "as":"date3"},
+    {"calculate":"replace(datum.date3, ' APR', '-04')", "as":"date4"},
+    {"calculate":"replace(datum.date4, ' MAY', '-05')", "as":"date5"},
+    {"calculate":"replace(datum.date5, ' JUN', '-06')", "as":"date6"},
+    {"calculate":"replace(datum.date6, ' JUL', '-07')", "as":"date7"},
+    {"calculate":"replace(datum.date7, ' AUG', '-08')", "as":"date8"},
+    {"calculate":"replace(datum.date8, ' SEP', '-09')", "as":"date9"},
+    {"calculate":"replace(datum.date9, ' OCT', '-10')", "as":"date10"},
+    {"calculate":"replace(datum.date10, ' NOV', '-11')", "as":"date11"},
+    {"calculate":"replace(datum.date11, ' DEC', '-12')", "as":"date12"},
+
+    {"calculate":"timeParse(datum.date12, '%Y-%m')", "as": "dateClean"},
+
+    {"calculate":"replace(datum.quarter, '', 'Online Sales RSI (10s)')", "as": "name"},
+
+    {"calculate":"datum.value/10", "as":"Online"},
+
+    {"filter": "datum.year>=minYear"}
+  ],
+
+  "mark":{"type": "line",  "point":true, "interpolate":"monotone"},
+
+  "encoding": {"y": {"field": "Online", "type": "quantitative","title":"%", "color": "name"},
+  "tooltip": [
+    {"field": "value", "type": "ordinal", "title": "Online Sales RSI (%)"},
+    {"field": "dateClean", "type": "temporal", "title": "Date"}
+  ]
+  
+  }
+}
+,
+
+{"data": {"url": "https://api.coronavirus.data.gov.uk/v2/data?areaType=overview&metric=newVaccinesGivenByPublishDate&format=csv",
+  "format": {"type":"csv"}},
+
+  "transform": [
+
+    {"calculate":"datum.newVaccinesGivenByPublishDate/100000", "as":"Vaccines"},
+    {"calculate":"datum.date", "as":"dateClean"},
+
+    {"calculate":"replace(datum.areaType, 'overview', 'Vaccines (100,000s)')", "as": "name"},
+    {
+  "window": [
+    {
+      "field": "Vaccines",
+      "op": "mean",
+      "as": "rolling_mean_vaccines"
+    }
+  ],
+  "frame": [-5,5]
+}
+  ],
+
+  "mark":{"type": "line", "interpolate":"monotone", "point":true},
+
+  "encoding": {"y": {"field": "rolling_mean_vaccines", "type": "quantitative","title":""},
+  "tooltip": [
+    {"field": "newVaccinesGivenByPublishDate", "type": "quantitative", "title": "Vaccines Given"},
+    {"field": "date", "type": "temporal", "title": "Date"}
+  ]
+  }
+},
+
+{"data": {"url": "https://api.coronavirus.data.gov.uk/v2/data?areaType=overview&metric=newAdmissions&format=csv",
+  "format": {"type":"csv"}},
+
+  "transform": [
+
+    {"calculate":"datum.newAdmissions/1000", "as":"Hospitals"},
+    {"calculate":"datum.date", "as":"dateClean"},
+
+    {"calculate":"replace(datum.areaType, 'overview', 'Hospitalisations (1000s)')", "as": "name"},
+    {
+  "window": [
+    {
+      "field": "Hospitals",
+      "op": "mean",
+      "as": "rolling_mean_admissions"
+    }
+  ],
+  "frame": [-5,5]
+}
+  ],
+
+  "mark":{"type": "line", "interpolate":"monotone", "point":true},
+
+  "encoding": {"y": {"field": "rolling_mean_admissions", "type": "quantitative","title":null},
+  "tooltip": [
+    {"field": "newAdmissions", "type": "quantitative", "title": "Hospital Admissions"},
+    {"field": "date", "type": "temporal", "title": "Date"}
+  ]
+  }
+}
+
+]
+}
