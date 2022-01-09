@@ -1,0 +1,769 @@
+Product,Availability,Date,Value
+Total,None,29 Oct 2021 - 1 Nov 2021,0.0218
+Total,Low,29 Oct 2021 - 1 Nov 2021,0.0833
+Total,Medium,29 Oct 2021 - 1 Nov 2021,0.3544
+Total,High,29 Oct 2021 - 1 Nov 2021,0.5405
+Beer,None,29 Oct 2021 - 1 Nov 2021,0.0078000000000000005
+Beer,Low,29 Oct 2021 - 1 Nov 2021,0.0078000000000000005
+Beer,Medium,29 Oct 2021 - 1 Nov 2021,0.2597
+Beer,High,29 Oct 2021 - 1 Nov 2021,0.7248
+Bread,None,29 Oct 2021 - 1 Nov 2021,0.0077
+Bread,Low,29 Oct 2021 - 1 Nov 2021,0.061500000000000006
+Bread,Medium,29 Oct 2021 - 1 Nov 2021,0.4692
+Bread,High,29 Oct 2021 - 1 Nov 2021,0.46149999999999997
+Chocolate selection boxes,None,29 Oct 2021 - 1 Nov 2021,0.0864
+Chocolate selection boxes,Low,29 Oct 2021 - 1 Nov 2021,0.0823
+Chocolate selection boxes,Medium,29 Oct 2021 - 1 Nov 2021,0.214
+Chocolate selection boxes,High,29 Oct 2021 - 1 Nov 2021,0.6173
+Crisps (multipack),None,29 Oct 2021 - 1 Nov 2021,0.0
+Crisps (multipack),Low,29 Oct 2021 - 1 Nov 2021,0.0
+Crisps (multipack),Medium,29 Oct 2021 - 1 Nov 2021,0.0
+Crisps (multipack),High,29 Oct 2021 - 1 Nov 2021,0.0
+Dried pasta,None,29 Oct 2021 - 1 Nov 2021,0.0154
+Dried pasta,Low,29 Oct 2021 - 1 Nov 2021,0.1115
+Dried pasta,Medium,29 Oct 2021 - 1 Nov 2021,0.4346
+Dried pasta,High,29 Oct 2021 - 1 Nov 2021,0.4385
+Fresh chicken,None,29 Oct 2021 - 1 Nov 2021,0.0116
+Fresh chicken,Low,29 Oct 2021 - 1 Nov 2021,0.0463
+Fresh chicken,Medium,29 Oct 2021 - 1 Nov 2021,0.3089
+Fresh chicken,High,29 Oct 2021 - 1 Nov 2021,0.6332
+Fresh fish,None,29 Oct 2021 - 1 Nov 2021,0.0163
+Fresh fish,Low,29 Oct 2021 - 1 Nov 2021,0.08539999999999999
+Fresh fish,Medium,29 Oct 2021 - 1 Nov 2021,0.3618
+Fresh fish,High,29 Oct 2021 - 1 Nov 2021,0.5366
+Fresh fruit,None,29 Oct 2021 - 1 Nov 2021,0.0039000000000000003
+Fresh fruit,Low,29 Oct 2021 - 1 Nov 2021,0.050199999999999995
+Fresh fruit,Medium,29 Oct 2021 - 1 Nov 2021,0.4208
+Fresh fruit,High,29 Oct 2021 - 1 Nov 2021,0.5251
+Fresh pork,None,29 Oct 2021 - 1 Nov 2021,0.027200000000000002
+Fresh pork,Low,29 Oct 2021 - 1 Nov 2021,0.1206
+Fresh pork,Medium,29 Oct 2021 - 1 Nov 2021,0.3735
+Fresh pork,High,29 Oct 2021 - 1 Nov 2021,0.47859999999999997
+Fresh vegetables,None,29 Oct 2021 - 1 Nov 2021,0.0039000000000000003
+Fresh vegetables,Low,29 Oct 2021 - 1 Nov 2021,0.0541
+Fresh vegetables,Medium,29 Oct 2021 - 1 Nov 2021,0.3475
+Fresh vegetables,High,29 Oct 2021 - 1 Nov 2021,0.5946
+Frozen chips,None,29 Oct 2021 - 1 Nov 2021,0.0116
+Frozen chips,Low,29 Oct 2021 - 1 Nov 2021,0.09269999999999999
+Frozen chips,Medium,29 Oct 2021 - 1 Nov 2021,0.332
+Frozen chips,High,29 Oct 2021 - 1 Nov 2021,0.5637
+Frozen fish,None,29 Oct 2021 - 1 Nov 2021,0.0116
+Frozen fish,Low,29 Oct 2021 - 1 Nov 2021,0.0581
+Frozen fish,Medium,29 Oct 2021 - 1 Nov 2021,0.2984
+Frozen fish,High,29 Oct 2021 - 1 Nov 2021,0.6318
+Frozen turkey,None,29 Oct 2021 - 1 Nov 2021,0.1158
+Frozen turkey,Low,29 Oct 2021 - 1 Nov 2021,0.1
+Frozen turkey,Medium,29 Oct 2021 - 1 Nov 2021,0.3211
+Frozen turkey,High,29 Oct 2021 - 1 Nov 2021,0.4632
+Frozen vegetables,None,29 Oct 2021 - 1 Nov 2021,0.019299999999999998
+Frozen vegetables,Low,29 Oct 2021 - 1 Nov 2021,0.09269999999999999
+Frozen vegetables,Medium,29 Oct 2021 - 1 Nov 2021,0.39
+Frozen vegetables,High,29 Oct 2021 - 1 Nov 2021,0.49810000000000004
+Ibuprofen,None,29 Oct 2021 - 1 Nov 2021,0.027000000000000003
+Ibuprofen,Low,29 Oct 2021 - 1 Nov 2021,0.08109999999999999
+Ibuprofen,Medium,29 Oct 2021 - 1 Nov 2021,0.3668
+Ibuprofen,High,29 Oct 2021 - 1 Nov 2021,0.5251
+Milk,None,29 Oct 2021 - 1 Nov 2021,0.0077
+Milk,Low,29 Oct 2021 - 1 Nov 2021,0.0462
+Milk,Medium,29 Oct 2021 - 1 Nov 2021,0.5154
+Milk,High,29 Oct 2021 - 1 Nov 2021,0.43079999999999996
+Paracetamol,None,29 Oct 2021 - 1 Nov 2021,0.030899999999999997
+Paracetamol,Low,29 Oct 2021 - 1 Nov 2021,0.1158
+Paracetamol,Medium,29 Oct 2021 - 1 Nov 2021,0.3243
+Paracetamol,High,29 Oct 2021 - 1 Nov 2021,0.529
+Potatoes,None,29 Oct 2021 - 1 Nov 2021,0.0077
+Potatoes,Low,29 Oct 2021 - 1 Nov 2021,0.08109999999999999
+Potatoes,Medium,29 Oct 2021 - 1 Nov 2021,0.278
+Potatoes,High,29 Oct 2021 - 1 Nov 2021,0.6332
+Soap,None,29 Oct 2021 - 1 Nov 2021,0.0077
+Soap,Low,29 Oct 2021 - 1 Nov 2021,0.0731
+Soap,Medium,29 Oct 2021 - 1 Nov 2021,0.37310000000000004
+Soap,High,29 Oct 2021 - 1 Nov 2021,0.5462
+Sparkling water,None,29 Oct 2021 - 1 Nov 2021,0.0385
+Sparkling water,Low,29 Oct 2021 - 1 Nov 2021,0.1962
+Sparkling water,Medium,29 Oct 2021 - 1 Nov 2021,0.3346
+Sparkling water,High,29 Oct 2021 - 1 Nov 2021,0.43079999999999996
+Toilet rolls,None,29 Oct 2021 - 1 Nov 2021,0.0115
+Toilet rolls,Low,29 Oct 2021 - 1 Nov 2021,0.07690000000000001
+Toilet rolls,Medium,29 Oct 2021 - 1 Nov 2021,0.34619999999999995
+Toilet rolls,High,29 Oct 2021 - 1 Nov 2021,0.5654
+Toothpaste,None,29 Oct 2021 - 1 Nov 2021,0.0038
+Toothpaste,Low,29 Oct 2021 - 1 Nov 2021,0.057699999999999994
+Toothpaste,Medium,29 Oct 2021 - 1 Nov 2021,0.37689999999999996
+Toothpaste,High,29 Oct 2021 - 1 Nov 2021,0.5615
+Washing up liquid,None,29 Oct 2021 - 1 Nov 2021,0.0346
+Washing up liquid,Low,29 Oct 2021 - 1 Nov 2021,0.1462
+Washing up liquid,Medium,29 Oct 2021 - 1 Nov 2021,0.3308
+Washing up liquid,High,29 Oct 2021 - 1 Nov 2021,0.4885
+Total,None,5 Nov 2021 - 8 Nov 2021,0.0212
+Total,Low,5 Nov 2021 - 8 Nov 2021,0.0737
+Total,Medium,5 Nov 2021 - 8 Nov 2021,0.38270000000000004
+Total,High,5 Nov 2021 - 8 Nov 2021,0.5224
+Beer,None,5 Nov 2021 - 8 Nov 2021,0.0038
+Beer,Low,5 Nov 2021 - 8 Nov 2021,0.011399999999999999
+Beer,Medium,5 Nov 2021 - 8 Nov 2021,0.3042
+Beer,High,5 Nov 2021 - 8 Nov 2021,0.6806
+Bread,None,5 Nov 2021 - 8 Nov 2021,0.0113
+Bread,Low,5 Nov 2021 - 8 Nov 2021,0.07519999999999999
+Bread,Medium,5 Nov 2021 - 8 Nov 2021,0.42479999999999996
+Bread,High,5 Nov 2021 - 8 Nov 2021,0.48869999999999997
+Chocolate selection boxes,None,5 Nov 2021 - 8 Nov 2021,0.0579
+Chocolate selection boxes,Low,5 Nov 2021 - 8 Nov 2021,0.061799999999999994
+Chocolate selection boxes,Medium,5 Nov 2021 - 8 Nov 2021,0.22390000000000002
+Chocolate selection boxes,High,5 Nov 2021 - 8 Nov 2021,0.6564
+Crisps (multipack),None,5 Nov 2021 - 8 Nov 2021,0.0
+Crisps (multipack),Low,5 Nov 2021 - 8 Nov 2021,0.0
+Crisps (multipack),Medium,5 Nov 2021 - 8 Nov 2021,0.0
+Crisps (multipack),High,5 Nov 2021 - 8 Nov 2021,0.0
+Dried pasta,None,5 Nov 2021 - 8 Nov 2021,0.0038
+Dried pasta,Low,5 Nov 2021 - 8 Nov 2021,0.1015
+Dried pasta,Medium,5 Nov 2021 - 8 Nov 2021,0.46240000000000003
+Dried pasta,High,5 Nov 2021 - 8 Nov 2021,0.43229999999999996
+Fresh chicken,None,5 Nov 2021 - 8 Nov 2021,0.0113
+Fresh chicken,Low,5 Nov 2021 - 8 Nov 2021,0.0564
+Fresh chicken,Medium,5 Nov 2021 - 8 Nov 2021,0.3045
+Fresh chicken,High,5 Nov 2021 - 8 Nov 2021,0.6278
+Fresh fish,None,5 Nov 2021 - 8 Nov 2021,0.011899999999999999
+Fresh fish,Low,5 Nov 2021 - 8 Nov 2021,0.083
+Fresh fish,Medium,5 Nov 2021 - 8 Nov 2021,0.44270000000000004
+Fresh fish,High,5 Nov 2021 - 8 Nov 2021,0.4625
+Fresh fruit,None,5 Nov 2021 - 8 Nov 2021,0.0113
+Fresh fruit,Low,5 Nov 2021 - 8 Nov 2021,0.0827
+Fresh fruit,Medium,5 Nov 2021 - 8 Nov 2021,0.43229999999999996
+Fresh fruit,High,5 Nov 2021 - 8 Nov 2021,0.47369999999999995
+Fresh pork,None,5 Nov 2021 - 8 Nov 2021,0.0263
+Fresh pork,Low,5 Nov 2021 - 8 Nov 2021,0.109
+Fresh pork,Medium,5 Nov 2021 - 8 Nov 2021,0.4286
+Fresh pork,High,5 Nov 2021 - 8 Nov 2021,0.4361
+Fresh vegetables,None,5 Nov 2021 - 8 Nov 2021,0.0075
+Fresh vegetables,Low,5 Nov 2021 - 8 Nov 2021,0.0453
+Fresh vegetables,Medium,5 Nov 2021 - 8 Nov 2021,0.434
+Fresh vegetables,High,5 Nov 2021 - 8 Nov 2021,0.5132
+Frozen chips,None,5 Nov 2021 - 8 Nov 2021,0.0189
+Frozen chips,Low,5 Nov 2021 - 8 Nov 2021,0.0717
+Frozen chips,Medium,5 Nov 2021 - 8 Nov 2021,0.3547
+Frozen chips,High,5 Nov 2021 - 8 Nov 2021,0.5547
+Frozen fish,None,5 Nov 2021 - 8 Nov 2021,0.0076
+Frozen fish,Low,5 Nov 2021 - 8 Nov 2021,0.0649
+Frozen fish,Medium,5 Nov 2021 - 8 Nov 2021,0.3588
+Frozen fish,High,5 Nov 2021 - 8 Nov 2021,0.5687
+Frozen turkey,None,5 Nov 2021 - 8 Nov 2021,0.11539999999999999
+Frozen turkey,Low,5 Nov 2021 - 8 Nov 2021,0.0625
+Frozen turkey,Medium,5 Nov 2021 - 8 Nov 2021,0.3221
+Frozen turkey,High,5 Nov 2021 - 8 Nov 2021,0.5
+Frozen vegetables,None,5 Nov 2021 - 8 Nov 2021,0.0075
+Frozen vegetables,Low,5 Nov 2021 - 8 Nov 2021,0.0604
+Frozen vegetables,Medium,5 Nov 2021 - 8 Nov 2021,0.4113
+Frozen vegetables,High,5 Nov 2021 - 8 Nov 2021,0.5207999999999999
+Ibuprofen,None,5 Nov 2021 - 8 Nov 2021,0.0487
+Ibuprofen,Low,5 Nov 2021 - 8 Nov 2021,0.10859999999999999
+Ibuprofen,Medium,5 Nov 2021 - 8 Nov 2021,0.35960000000000003
+Ibuprofen,High,5 Nov 2021 - 8 Nov 2021,0.48310000000000003
+Milk,None,5 Nov 2021 - 8 Nov 2021,0.0113
+Milk,Low,5 Nov 2021 - 8 Nov 2021,0.1015
+Milk,Medium,5 Nov 2021 - 8 Nov 2021,0.4962
+Milk,High,5 Nov 2021 - 8 Nov 2021,0.391
+Paracetamol,None,5 Nov 2021 - 8 Nov 2021,0.037599999999999995
+Paracetamol,Low,5 Nov 2021 - 8 Nov 2021,0.109
+Paracetamol,Medium,5 Nov 2021 - 8 Nov 2021,0.391
+Paracetamol,High,5 Nov 2021 - 8 Nov 2021,0.46240000000000003
+Potatoes,None,5 Nov 2021 - 8 Nov 2021,0.0113
+Potatoes,Low,5 Nov 2021 - 8 Nov 2021,0.0604
+Potatoes,Medium,5 Nov 2021 - 8 Nov 2021,0.317
+Potatoes,High,5 Nov 2021 - 8 Nov 2021,0.6113000000000001
+Soap,None,5 Nov 2021 - 8 Nov 2021,0.0075
+Soap,Low,5 Nov 2021 - 8 Nov 2021,0.0526
+Soap,Medium,5 Nov 2021 - 8 Nov 2021,0.42479999999999996
+Soap,High,5 Nov 2021 - 8 Nov 2021,0.515
+Sparkling water,None,5 Nov 2021 - 8 Nov 2021,0.0263
+Sparkling water,Low,5 Nov 2021 - 8 Nov 2021,0.1429
+Sparkling water,Medium,5 Nov 2021 - 8 Nov 2021,0.3496
+Sparkling water,High,5 Nov 2021 - 8 Nov 2021,0.48119999999999996
+Toilet rolls,None,5 Nov 2021 - 8 Nov 2021,0.0075
+Toilet rolls,Low,5 Nov 2021 - 8 Nov 2021,0.0526
+Toilet rolls,Medium,5 Nov 2021 - 8 Nov 2021,0.3872
+Toilet rolls,High,5 Nov 2021 - 8 Nov 2021,0.5526
+Toothpaste,None,5 Nov 2021 - 8 Nov 2021,0.0075
+Toothpaste,Low,5 Nov 2021 - 8 Nov 2021,0.0338
+Toothpaste,Medium,5 Nov 2021 - 8 Nov 2021,0.4023
+Toothpaste,High,5 Nov 2021 - 8 Nov 2021,0.5564
+Washing up liquid,None,5 Nov 2021 - 8 Nov 2021,0.0338
+Washing up liquid,Low,5 Nov 2021 - 8 Nov 2021,0.07139999999999999
+Washing up liquid,Medium,5 Nov 2021 - 8 Nov 2021,0.3722
+Washing up liquid,High,5 Nov 2021 - 8 Nov 2021,0.5226
+Total,None,12 Nov 2021 - 15 Nov 2021,0.0195
+Total,Low,12 Nov 2021 - 15 Nov 2021,0.07780000000000001
+Total,Medium,12 Nov 2021 - 15 Nov 2021,0.36219999999999997
+Total,High,12 Nov 2021 - 15 Nov 2021,0.5405
+Beer,None,12 Nov 2021 - 15 Nov 2021,0.004
+Beer,Low,12 Nov 2021 - 15 Nov 2021,0.004
+Beer,Medium,12 Nov 2021 - 15 Nov 2021,0.2869
+Beer,High,12 Nov 2021 - 15 Nov 2021,0.7051999999999999
+Bread,None,12 Nov 2021 - 15 Nov 2021,0.0039000000000000003
+Bread,Low,12 Nov 2021 - 15 Nov 2021,0.0394
+Bread,Medium,12 Nov 2021 - 15 Nov 2021,0.4291
+Bread,High,12 Nov 2021 - 15 Nov 2021,0.5276
+Chocolate selection boxes,None,12 Nov 2021 - 15 Nov 2021,0.028900000000000002
+Chocolate selection boxes,Low,12 Nov 2021 - 15 Nov 2021,0.0496
+Chocolate selection boxes,Medium,12 Nov 2021 - 15 Nov 2021,0.2562
+Chocolate selection boxes,High,12 Nov 2021 - 15 Nov 2021,0.6653
+Crisps (multipack),None,12 Nov 2021 - 15 Nov 2021,0.0359
+Crisps (multipack),Low,12 Nov 2021 - 15 Nov 2021,0.259
+Crisps (multipack),Medium,12 Nov 2021 - 15 Nov 2021,0.3944
+Crisps (multipack),High,12 Nov 2021 - 15 Nov 2021,0.31079999999999997
+Dried pasta,None,12 Nov 2021 - 15 Nov 2021,0.0079
+Dried pasta,Low,12 Nov 2021 - 15 Nov 2021,0.0984
+Dried pasta,Medium,12 Nov 2021 - 15 Nov 2021,0.44880000000000003
+Dried pasta,High,12 Nov 2021 - 15 Nov 2021,0.4449
+Fresh chicken,None,12 Nov 2021 - 15 Nov 2021,0.015700000000000002
+Fresh chicken,Low,12 Nov 2021 - 15 Nov 2021,0.0591
+Fresh chicken,Medium,12 Nov 2021 - 15 Nov 2021,0.3425
+Fresh chicken,High,12 Nov 2021 - 15 Nov 2021,0.5827
+Fresh fish,None,12 Nov 2021 - 15 Nov 2021,0.0042
+Fresh fish,Low,12 Nov 2021 - 15 Nov 2021,0.0667
+Fresh fish,Medium,12 Nov 2021 - 15 Nov 2021,0.475
+Fresh fish,High,12 Nov 2021 - 15 Nov 2021,0.4542
+Fresh fruit,None,12 Nov 2021 - 15 Nov 2021,0.0079
+Fresh fruit,Low,12 Nov 2021 - 15 Nov 2021,0.0748
+Fresh fruit,Medium,12 Nov 2021 - 15 Nov 2021,0.40549999999999997
+Fresh fruit,High,12 Nov 2021 - 15 Nov 2021,0.5118
+Fresh pork,None,12 Nov 2021 - 15 Nov 2021,0.035699999999999996
+Fresh pork,Low,12 Nov 2021 - 15 Nov 2021,0.0913
+Fresh pork,Medium,12 Nov 2021 - 15 Nov 2021,0.4167
+Fresh pork,High,12 Nov 2021 - 15 Nov 2021,0.45630000000000004
+Fresh vegetables,None,12 Nov 2021 - 15 Nov 2021,0.004
+Fresh vegetables,Low,12 Nov 2021 - 15 Nov 2021,0.0316
+Fresh vegetables,Medium,12 Nov 2021 - 15 Nov 2021,0.336
+Fresh vegetables,High,12 Nov 2021 - 15 Nov 2021,0.6285000000000001
+Frozen chips,None,12 Nov 2021 - 15 Nov 2021,0.008
+Frozen chips,Low,12 Nov 2021 - 15 Nov 2021,0.0438
+Frozen chips,Medium,12 Nov 2021 - 15 Nov 2021,0.34659999999999996
+Frozen chips,High,12 Nov 2021 - 15 Nov 2021,0.6015999999999999
+Frozen fish,None,12 Nov 2021 - 15 Nov 2021,0.004
+Frozen fish,Low,12 Nov 2021 - 15 Nov 2021,0.0562
+Frozen fish,Medium,12 Nov 2021 - 15 Nov 2021,0.3293
+Frozen fish,High,12 Nov 2021 - 15 Nov 2021,0.6103999999999999
+Frozen turkey,None,12 Nov 2021 - 15 Nov 2021,0.1024
+Frozen turkey,Low,12 Nov 2021 - 15 Nov 2021,0.0537
+Frozen turkey,Medium,12 Nov 2021 - 15 Nov 2021,0.3268
+Frozen turkey,High,12 Nov 2021 - 15 Nov 2021,0.5171
+Frozen vegetables,None,12 Nov 2021 - 15 Nov 2021,0.004
+Frozen vegetables,Low,12 Nov 2021 - 15 Nov 2021,0.07139999999999999
+Frozen vegetables,Medium,12 Nov 2021 - 15 Nov 2021,0.3611
+Frozen vegetables,High,12 Nov 2021 - 15 Nov 2021,0.5635
+Ibuprofen,None,12 Nov 2021 - 15 Nov 2021,0.0669
+Ibuprofen,Low,12 Nov 2021 - 15 Nov 2021,0.0906
+Ibuprofen,Medium,12 Nov 2021 - 15 Nov 2021,0.3465
+Ibuprofen,High,12 Nov 2021 - 15 Nov 2021,0.4961
+Milk,None,12 Nov 2021 - 15 Nov 2021,0.0039000000000000003
+Milk,Low,12 Nov 2021 - 15 Nov 2021,0.0787
+Milk,Medium,12 Nov 2021 - 15 Nov 2021,0.43700000000000006
+Milk,High,12 Nov 2021 - 15 Nov 2021,0.4803
+Paracetamol,None,12 Nov 2021 - 15 Nov 2021,0.0512
+Paracetamol,Low,12 Nov 2021 - 15 Nov 2021,0.11810000000000001
+Paracetamol,Medium,12 Nov 2021 - 15 Nov 2021,0.32280000000000003
+Paracetamol,High,12 Nov 2021 - 15 Nov 2021,0.5079
+Potatoes,None,12 Nov 2021 - 15 Nov 2021,0.0079
+Potatoes,Low,12 Nov 2021 - 15 Nov 2021,0.0632
+Potatoes,Medium,12 Nov 2021 - 15 Nov 2021,0.3043
+Potatoes,High,12 Nov 2021 - 15 Nov 2021,0.6245
+Soap,None,12 Nov 2021 - 15 Nov 2021,0.0078000000000000005
+Soap,Low,12 Nov 2021 - 15 Nov 2021,0.0706
+Soap,Medium,12 Nov 2021 - 15 Nov 2021,0.34119999999999995
+Soap,High,12 Nov 2021 - 15 Nov 2021,0.5804
+Sparkling water,None,12 Nov 2021 - 15 Nov 2021,0.0197
+Sparkling water,Low,12 Nov 2021 - 15 Nov 2021,0.1378
+Sparkling water,Medium,12 Nov 2021 - 15 Nov 2021,0.40159999999999996
+Sparkling water,High,12 Nov 2021 - 15 Nov 2021,0.4409
+Toilet rolls,None,12 Nov 2021 - 15 Nov 2021,0.004
+Toilet rolls,Low,12 Nov 2021 - 15 Nov 2021,0.0751
+Toilet rolls,Medium,12 Nov 2021 - 15 Nov 2021,0.37939999999999996
+Toilet rolls,High,12 Nov 2021 - 15 Nov 2021,0.5415
+Toothpaste,None,12 Nov 2021 - 15 Nov 2021,0.0039000000000000003
+Toothpaste,Low,12 Nov 2021 - 15 Nov 2021,0.0315
+Toothpaste,Medium,12 Nov 2021 - 15 Nov 2021,0.3307
+Toothpaste,High,12 Nov 2021 - 15 Nov 2021,0.6339
+Washing up liquid,None,12 Nov 2021 - 15 Nov 2021,0.0316
+Washing up liquid,Low,12 Nov 2021 - 15 Nov 2021,0.1186
+Washing up liquid,Medium,12 Nov 2021 - 15 Nov 2021,0.3043
+Washing up liquid,High,12 Nov 2021 - 15 Nov 2021,0.5455
+Total,None,19 Nov 2021 - 22 Nov 2021,0.0174
+Total,Low,19 Nov 2021 - 22 Nov 2021,0.0745
+Total,Medium,19 Nov 2021 - 22 Nov 2021,0.3764
+Total,High,19 Nov 2021 - 22 Nov 2021,0.5317000000000001
+Beer,None,19 Nov 2021 - 22 Nov 2021,0.0038
+Beer,Low,19 Nov 2021 - 22 Nov 2021,0.0192
+Beer,Medium,19 Nov 2021 - 22 Nov 2021,0.23850000000000002
+Beer,High,19 Nov 2021 - 22 Nov 2021,0.7384999999999999
+Bread,None,19 Nov 2021 - 22 Nov 2021,0.0038
+Bread,Low,19 Nov 2021 - 22 Nov 2021,0.057300000000000004
+Bread,Medium,19 Nov 2021 - 22 Nov 2021,0.4008
+Bread,High,19 Nov 2021 - 22 Nov 2021,0.5382
+Chocolate selection boxes,None,19 Nov 2021 - 22 Nov 2021,0.0394
+Chocolate selection boxes,Low,19 Nov 2021 - 22 Nov 2021,0.0433
+Chocolate selection boxes,Medium,19 Nov 2021 - 22 Nov 2021,0.27949999999999997
+Chocolate selection boxes,High,19 Nov 2021 - 22 Nov 2021,0.6378
+Crisps (multipack),None,19 Nov 2021 - 22 Nov 2021,0.0383
+Crisps (multipack),Low,19 Nov 2021 - 22 Nov 2021,0.19920000000000002
+Crisps (multipack),Medium,19 Nov 2021 - 22 Nov 2021,0.4368
+Crisps (multipack),High,19 Nov 2021 - 22 Nov 2021,0.3257
+Dried pasta,None,19 Nov 2021 - 22 Nov 2021,0.0038
+Dried pasta,Low,19 Nov 2021 - 22 Nov 2021,0.09230000000000001
+Dried pasta,Medium,19 Nov 2021 - 22 Nov 2021,0.4692
+Dried pasta,High,19 Nov 2021 - 22 Nov 2021,0.4346
+Fresh chicken,None,19 Nov 2021 - 22 Nov 2021,0.0115
+Fresh chicken,Low,19 Nov 2021 - 22 Nov 2021,0.042
+Fresh chicken,Medium,19 Nov 2021 - 22 Nov 2021,0.3435
+Fresh chicken,High,19 Nov 2021 - 22 Nov 2021,0.6031
+Fresh fish,None,19 Nov 2021 - 22 Nov 2021,0.0202
+Fresh fish,Low,19 Nov 2021 - 22 Nov 2021,0.0726
+Fresh fish,Medium,19 Nov 2021 - 22 Nov 2021,0.4435
+Fresh fish,High,19 Nov 2021 - 22 Nov 2021,0.4637
+Fresh fruit,None,19 Nov 2021 - 22 Nov 2021,0.0076
+Fresh fruit,Low,19 Nov 2021 - 22 Nov 2021,0.0611
+Fresh fruit,Medium,19 Nov 2021 - 22 Nov 2021,0.4542
+Fresh fruit,High,19 Nov 2021 - 22 Nov 2021,0.4771
+Fresh pork,None,19 Nov 2021 - 22 Nov 2021,0.023
+Fresh pork,Low,19 Nov 2021 - 22 Nov 2021,0.1226
+Fresh pork,Medium,19 Nov 2021 - 22 Nov 2021,0.4483
+Fresh pork,High,19 Nov 2021 - 22 Nov 2021,0.4061
+Fresh vegetables,None,19 Nov 2021 - 22 Nov 2021,0.0076
+Fresh vegetables,Low,19 Nov 2021 - 22 Nov 2021,0.0344
+Fresh vegetables,Medium,19 Nov 2021 - 22 Nov 2021,0.3969
+Fresh vegetables,High,19 Nov 2021 - 22 Nov 2021,0.5611
+Frozen chips,None,19 Nov 2021 - 22 Nov 2021,0.0115
+Frozen chips,Low,19 Nov 2021 - 22 Nov 2021,0.061500000000000006
+Frozen chips,Medium,19 Nov 2021 - 22 Nov 2021,0.3308
+Frozen chips,High,19 Nov 2021 - 22 Nov 2021,0.5962
+Frozen fish,None,19 Nov 2021 - 22 Nov 2021,0.0039000000000000003
+Frozen fish,Low,19 Nov 2021 - 22 Nov 2021,0.042800000000000005
+Frozen fish,Medium,19 Nov 2021 - 22 Nov 2021,0.3619
+Frozen fish,High,19 Nov 2021 - 22 Nov 2021,0.5914
+Frozen turkey,None,19 Nov 2021 - 22 Nov 2021,0.1033
+Frozen turkey,Low,19 Nov 2021 - 22 Nov 2021,0.0329
+Frozen turkey,Medium,19 Nov 2021 - 22 Nov 2021,0.3286
+Frozen turkey,High,19 Nov 2021 - 22 Nov 2021,0.5352
+Frozen vegetables,None,19 Nov 2021 - 22 Nov 2021,0.0077
+Frozen vegetables,Low,19 Nov 2021 - 22 Nov 2021,0.061500000000000006
+Frozen vegetables,Medium,19 Nov 2021 - 22 Nov 2021,0.34619999999999995
+Frozen vegetables,High,19 Nov 2021 - 22 Nov 2021,0.5846
+Ibuprofen,None,19 Nov 2021 - 22 Nov 2021,0.0385
+Ibuprofen,Low,19 Nov 2021 - 22 Nov 2021,0.1192
+Ibuprofen,Medium,19 Nov 2021 - 22 Nov 2021,0.3846
+Ibuprofen,High,19 Nov 2021 - 22 Nov 2021,0.45770000000000005
+Milk,None,19 Nov 2021 - 22 Nov 2021,0.0038
+Milk,Low,19 Nov 2021 - 22 Nov 2021,0.0725
+Milk,Medium,19 Nov 2021 - 22 Nov 2021,0.48090000000000005
+Milk,High,19 Nov 2021 - 22 Nov 2021,0.44270000000000004
+Paracetamol,None,19 Nov 2021 - 22 Nov 2021,0.0345
+Paracetamol,Low,19 Nov 2021 - 22 Nov 2021,0.1456
+Paracetamol,Medium,19 Nov 2021 - 22 Nov 2021,0.3295
+Paracetamol,High,19 Nov 2021 - 22 Nov 2021,0.4904
+Potatoes,None,19 Nov 2021 - 22 Nov 2021,0.0038
+Potatoes,Low,19 Nov 2021 - 22 Nov 2021,0.0575
+Potatoes,Medium,19 Nov 2021 - 22 Nov 2021,0.2797
+Potatoes,High,19 Nov 2021 - 22 Nov 2021,0.659
+Soap,None,19 Nov 2021 - 22 Nov 2021,0.0076
+Soap,Low,19 Nov 2021 - 22 Nov 2021,0.07629999999999999
+Soap,Medium,19 Nov 2021 - 22 Nov 2021,0.3626
+Soap,High,19 Nov 2021 - 22 Nov 2021,0.5534
+Sparkling water,None,19 Nov 2021 - 22 Nov 2021,0.015300000000000001
+Sparkling water,Low,19 Nov 2021 - 22 Nov 2021,0.1379
+Sparkling water,Medium,19 Nov 2021 - 22 Nov 2021,0.4023
+Sparkling water,High,19 Nov 2021 - 22 Nov 2021,0.44439999999999996
+Toilet rolls,None,19 Nov 2021 - 22 Nov 2021,0.0038
+Toilet rolls,Low,19 Nov 2021 - 22 Nov 2021,0.0613
+Toilet rolls,Medium,19 Nov 2021 - 22 Nov 2021,0.3831
+Toilet rolls,High,19 Nov 2021 - 22 Nov 2021,0.5517
+Toothpaste,None,19 Nov 2021 - 22 Nov 2021,0.0038
+Toothpaste,Low,19 Nov 2021 - 22 Nov 2021,0.030699999999999998
+Toothpaste,Medium,19 Nov 2021 - 22 Nov 2021,0.387
+Toothpaste,High,19 Nov 2021 - 22 Nov 2021,0.5785
+Washing up liquid,None,19 Nov 2021 - 22 Nov 2021,0.0192
+Washing up liquid,Low,19 Nov 2021 - 22 Nov 2021,0.0613
+Washing up liquid,Medium,19 Nov 2021 - 22 Nov 2021,0.3602
+Washing up liquid,High,19 Nov 2021 - 22 Nov 2021,0.5594
+Total,None,26 Nov 2021 - 29 Nov 2021,0.018000000000000002
+Total,Low,26 Nov 2021 - 29 Nov 2021,0.0689
+Total,Medium,26 Nov 2021 - 29 Nov 2021,0.3747
+Total,High,26 Nov 2021 - 29 Nov 2021,0.5383
+Beer,None,26 Nov 2021 - 29 Nov 2021,0.0039000000000000003
+Beer,Low,26 Nov 2021 - 29 Nov 2021,0.030899999999999997
+Beer,Medium,26 Nov 2021 - 29 Nov 2021,0.2664
+Beer,High,26 Nov 2021 - 29 Nov 2021,0.6988
+Bread,None,26 Nov 2021 - 29 Nov 2021,0.0038
+Bread,Low,26 Nov 2021 - 29 Nov 2021,0.0458
+Bread,Medium,26 Nov 2021 - 29 Nov 2021,0.42369999999999997
+Bread,High,26 Nov 2021 - 29 Nov 2021,0.5267000000000001
+Chocolate selection boxes,None,26 Nov 2021 - 29 Nov 2021,0.0276
+Chocolate selection boxes,Low,26 Nov 2021 - 29 Nov 2021,0.063
+Chocolate selection boxes,Medium,26 Nov 2021 - 29 Nov 2021,0.311
+Chocolate selection boxes,High,26 Nov 2021 - 29 Nov 2021,0.5984
+Crisps (multipack),None,26 Nov 2021 - 29 Nov 2021,0.0421
+Crisps (multipack),Low,26 Nov 2021 - 29 Nov 2021,0.19920000000000002
+Crisps (multipack),Medium,26 Nov 2021 - 29 Nov 2021,0.3831
+Crisps (multipack),High,26 Nov 2021 - 29 Nov 2021,0.37549999999999994
+Dried pasta,None,26 Nov 2021 - 29 Nov 2021,0.0077
+Dried pasta,Low,26 Nov 2021 - 29 Nov 2021,0.0843
+Dried pasta,Medium,26 Nov 2021 - 29 Nov 2021,0.4789
+Dried pasta,High,26 Nov 2021 - 29 Nov 2021,0.4291
+Fresh chicken,None,26 Nov 2021 - 29 Nov 2021,0.015300000000000001
+Fresh chicken,Low,26 Nov 2021 - 29 Nov 2021,0.042
+Fresh chicken,Medium,26 Nov 2021 - 29 Nov 2021,0.3206
+Fresh chicken,High,26 Nov 2021 - 29 Nov 2021,0.6221
+Fresh fish,None,26 Nov 2021 - 29 Nov 2021,0.0202
+Fresh fish,Low,26 Nov 2021 - 29 Nov 2021,0.0688
+Fresh fish,Medium,26 Nov 2021 - 29 Nov 2021,0.4251
+Fresh fish,High,26 Nov 2021 - 29 Nov 2021,0.4858
+Fresh fruit,None,26 Nov 2021 - 29 Nov 2021,0.0076
+Fresh fruit,Low,26 Nov 2021 - 29 Nov 2021,0.0496
+Fresh fruit,Medium,26 Nov 2021 - 29 Nov 2021,0.3931
+Fresh fruit,High,26 Nov 2021 - 29 Nov 2021,0.5496
+Fresh pork,None,26 Nov 2021 - 29 Nov 2021,0.011399999999999999
+Fresh pork,Low,26 Nov 2021 - 29 Nov 2021,0.1065
+Fresh pork,Medium,26 Nov 2021 - 29 Nov 2021,0.42210000000000003
+Fresh pork,High,26 Nov 2021 - 29 Nov 2021,0.46009999999999995
+Fresh vegetables,None,26 Nov 2021 - 29 Nov 2021,0.0076
+Fresh vegetables,Low,26 Nov 2021 - 29 Nov 2021,0.0305
+Fresh vegetables,Medium,26 Nov 2021 - 29 Nov 2021,0.3435
+Fresh vegetables,High,26 Nov 2021 - 29 Nov 2021,0.6183
+Frozen chips,None,26 Nov 2021 - 29 Nov 2021,0.0231
+Frozen chips,Low,26 Nov 2021 - 29 Nov 2021,0.0538
+Frozen chips,Medium,26 Nov 2021 - 29 Nov 2021,0.3654
+Frozen chips,High,26 Nov 2021 - 29 Nov 2021,0.5577000000000001
+Frozen fish,None,26 Nov 2021 - 29 Nov 2021,0.0078000000000000005
+Frozen fish,Low,26 Nov 2021 - 29 Nov 2021,0.0467
+Frozen fish,Medium,26 Nov 2021 - 29 Nov 2021,0.3774
+Frozen fish,High,26 Nov 2021 - 29 Nov 2021,0.5681
+Frozen turkey,None,26 Nov 2021 - 29 Nov 2021,0.0806
+Frozen turkey,Low,26 Nov 2021 - 29 Nov 2021,0.0521
+Frozen turkey,Medium,26 Nov 2021 - 29 Nov 2021,0.3839
+Frozen turkey,High,26 Nov 2021 - 29 Nov 2021,0.48340000000000005
+Frozen vegetables,None,26 Nov 2021 - 29 Nov 2021,0.0077
+Frozen vegetables,Low,26 Nov 2021 - 29 Nov 2021,0.0308
+Frozen vegetables,Medium,26 Nov 2021 - 29 Nov 2021,0.3962
+Frozen vegetables,High,26 Nov 2021 - 29 Nov 2021,0.5654
+Ibuprofen,None,26 Nov 2021 - 29 Nov 2021,0.049800000000000004
+Ibuprofen,Low,26 Nov 2021 - 29 Nov 2021,0.1149
+Ibuprofen,Medium,26 Nov 2021 - 29 Nov 2021,0.3602
+Ibuprofen,High,26 Nov 2021 - 29 Nov 2021,0.47509999999999997
+Milk,None,26 Nov 2021 - 29 Nov 2021,0.0038
+Milk,Low,26 Nov 2021 - 29 Nov 2021,0.0458
+Milk,Medium,26 Nov 2021 - 29 Nov 2021,0.5
+Milk,High,26 Nov 2021 - 29 Nov 2021,0.45039999999999997
+Paracetamol,None,26 Nov 2021 - 29 Nov 2021,0.0268
+Paracetamol,Low,26 Nov 2021 - 29 Nov 2021,0.1341
+Paracetamol,Medium,26 Nov 2021 - 29 Nov 2021,0.3333
+Paracetamol,High,26 Nov 2021 - 29 Nov 2021,0.5057
+Potatoes,None,26 Nov 2021 - 29 Nov 2021,0.0115
+Potatoes,Low,26 Nov 2021 - 29 Nov 2021,0.042
+Potatoes,Medium,26 Nov 2021 - 29 Nov 2021,0.32439999999999997
+Potatoes,High,26 Nov 2021 - 29 Nov 2021,0.6221
+Soap,None,26 Nov 2021 - 29 Nov 2021,0.015300000000000001
+Soap,Low,26 Nov 2021 - 29 Nov 2021,0.0458
+Soap,Medium,26 Nov 2021 - 29 Nov 2021,0.3626
+Soap,High,26 Nov 2021 - 29 Nov 2021,0.5763
+Sparkling water,None,26 Nov 2021 - 29 Nov 2021,0.0115
+Sparkling water,Low,26 Nov 2021 - 29 Nov 2021,0.126
+Sparkling water,Medium,26 Nov 2021 - 29 Nov 2021,0.3397
+Sparkling water,High,26 Nov 2021 - 29 Nov 2021,0.5229
+Toilet rolls,None,26 Nov 2021 - 29 Nov 2021,0.0038
+Toilet rolls,Low,26 Nov 2021 - 29 Nov 2021,0.0766
+Toilet rolls,Medium,26 Nov 2021 - 29 Nov 2021,0.3678
+Toilet rolls,High,26 Nov 2021 - 29 Nov 2021,0.5517
+Toothpaste,None,26 Nov 2021 - 29 Nov 2021,0.0077
+Toothpaste,Low,26 Nov 2021 - 29 Nov 2021,0.030699999999999998
+Toothpaste,Medium,26 Nov 2021 - 29 Nov 2021,0.4138
+Toothpaste,High,26 Nov 2021 - 29 Nov 2021,0.5478999999999999
+Washing up liquid,None,26 Nov 2021 - 29 Nov 2021,0.0305
+Washing up liquid,Low,26 Nov 2021 - 29 Nov 2021,0.0611
+Washing up liquid,Medium,26 Nov 2021 - 29 Nov 2021,0.3282
+Washing up liquid,High,26 Nov 2021 - 29 Nov 2021,0.5802
+Total,None,3 Dec 2021 - 6 Dec 2021,0.0161
+Total,Low,3 Dec 2021 - 6 Dec 2021,0.0721
+Total,Medium,3 Dec 2021 - 6 Dec 2021,0.3774
+Total,High,3 Dec 2021 - 6 Dec 2021,0.5344
+Beer,None,3 Dec 2021 - 6 Dec 2021,0.0038
+Beer,Low,3 Dec 2021 - 6 Dec 2021,0.0151
+Beer,Medium,3 Dec 2021 - 6 Dec 2021,0.29059999999999997
+Beer,High,3 Dec 2021 - 6 Dec 2021,0.6906
+Bread,None,3 Dec 2021 - 6 Dec 2021,0.0037
+Bread,Low,3 Dec 2021 - 6 Dec 2021,0.0336
+Bread,Medium,3 Dec 2021 - 6 Dec 2021,0.4216
+Bread,High,3 Dec 2021 - 6 Dec 2021,0.541
+Chocolate selection boxes,None,3 Dec 2021 - 6 Dec 2021,0.0341
+Chocolate selection boxes,Low,3 Dec 2021 - 6 Dec 2021,0.0795
+Chocolate selection boxes,Medium,3 Dec 2021 - 6 Dec 2021,0.25
+Chocolate selection boxes,High,3 Dec 2021 - 6 Dec 2021,0.6364
+Crisps (multipack),None,3 Dec 2021 - 6 Dec 2021,0.011200000000000002
+Crisps (multipack),Low,3 Dec 2021 - 6 Dec 2021,0.161
+Crisps (multipack),Medium,3 Dec 2021 - 6 Dec 2021,0.4794
+Crisps (multipack),High,3 Dec 2021 - 6 Dec 2021,0.3483
+Dried pasta,None,3 Dec 2021 - 6 Dec 2021,0.011200000000000002
+Dried pasta,Low,3 Dec 2021 - 6 Dec 2021,0.052199999999999996
+Dried pasta,Medium,3 Dec 2021 - 6 Dec 2021,0.4366
+Dried pasta,High,3 Dec 2021 - 6 Dec 2021,0.5
+Fresh chicken,None,3 Dec 2021 - 6 Dec 2021,0.011200000000000002
+Fresh chicken,Low,3 Dec 2021 - 6 Dec 2021,0.055999999999999994
+Fresh chicken,Medium,3 Dec 2021 - 6 Dec 2021,0.3134
+Fresh chicken,High,3 Dec 2021 - 6 Dec 2021,0.6194
+Fresh fish,None,3 Dec 2021 - 6 Dec 2021,0.015700000000000002
+Fresh fish,Low,3 Dec 2021 - 6 Dec 2021,0.0787
+Fresh fish,Medium,3 Dec 2021 - 6 Dec 2021,0.4409
+Fresh fish,High,3 Dec 2021 - 6 Dec 2021,0.4646
+Fresh fruit,None,3 Dec 2021 - 6 Dec 2021,0.0075
+Fresh fruit,Low,3 Dec 2021 - 6 Dec 2021,0.0187
+Fresh fruit,Medium,3 Dec 2021 - 6 Dec 2021,0.444
+Fresh fruit,High,3 Dec 2021 - 6 Dec 2021,0.5299
+Fresh pork,None,3 Dec 2021 - 6 Dec 2021,0.026099999999999998
+Fresh pork,Low,3 Dec 2021 - 6 Dec 2021,0.1493
+Fresh pork,Medium,3 Dec 2021 - 6 Dec 2021,0.38060000000000005
+Fresh pork,High,3 Dec 2021 - 6 Dec 2021,0.444
+Fresh vegetables,None,3 Dec 2021 - 6 Dec 2021,0.0075
+Fresh vegetables,Low,3 Dec 2021 - 6 Dec 2021,0.0336
+Fresh vegetables,Medium,3 Dec 2021 - 6 Dec 2021,0.37689999999999996
+Fresh vegetables,High,3 Dec 2021 - 6 Dec 2021,0.5821000000000001
+Frozen chips,None,3 Dec 2021 - 6 Dec 2021,0.0075
+Frozen chips,Low,3 Dec 2021 - 6 Dec 2021,0.0755
+Frozen chips,Medium,3 Dec 2021 - 6 Dec 2021,0.3811
+Frozen chips,High,3 Dec 2021 - 6 Dec 2021,0.5357999999999999
+Frozen fish,None,3 Dec 2021 - 6 Dec 2021,0.0077
+Frozen fish,Low,3 Dec 2021 - 6 Dec 2021,0.046
+Frozen fish,Medium,3 Dec 2021 - 6 Dec 2021,0.3525
+Frozen fish,High,3 Dec 2021 - 6 Dec 2021,0.5939
+Frozen turkey,None,3 Dec 2021 - 6 Dec 2021,0.08109999999999999
+Frozen turkey,Low,3 Dec 2021 - 6 Dec 2021,0.0946
+Frozen turkey,Medium,3 Dec 2021 - 6 Dec 2021,0.3829
+Frozen turkey,High,3 Dec 2021 - 6 Dec 2021,0.4414
+Frozen vegetables,None,3 Dec 2021 - 6 Dec 2021,0.0075
+Frozen vegetables,Low,3 Dec 2021 - 6 Dec 2021,0.0639
+Frozen vegetables,Medium,3 Dec 2021 - 6 Dec 2021,0.3722
+Frozen vegetables,High,3 Dec 2021 - 6 Dec 2021,0.5564
+Ibuprofen,None,3 Dec 2021 - 6 Dec 2021,0.034
+Ibuprofen,Low,3 Dec 2021 - 6 Dec 2021,0.1434
+Ibuprofen,Medium,3 Dec 2021 - 6 Dec 2021,0.3245
+Ibuprofen,High,3 Dec 2021 - 6 Dec 2021,0.49810000000000004
+Milk,None,3 Dec 2021 - 6 Dec 2021,0.0037
+Milk,Low,3 Dec 2021 - 6 Dec 2021,0.055999999999999994
+Milk,Medium,3 Dec 2021 - 6 Dec 2021,0.4366
+Milk,High,3 Dec 2021 - 6 Dec 2021,0.5036999999999999
+Paracetamol,None,3 Dec 2021 - 6 Dec 2021,0.0412
+Paracetamol,Low,3 Dec 2021 - 6 Dec 2021,0.1199
+Paracetamol,Medium,3 Dec 2021 - 6 Dec 2021,0.37829999999999997
+Paracetamol,High,3 Dec 2021 - 6 Dec 2021,0.4607
+Potatoes,None,3 Dec 2021 - 6 Dec 2021,0.0075
+Potatoes,Low,3 Dec 2021 - 6 Dec 2021,0.029900000000000003
+Potatoes,Medium,3 Dec 2021 - 6 Dec 2021,0.3507
+Potatoes,High,3 Dec 2021 - 6 Dec 2021,0.6119
+Soap,None,3 Dec 2021 - 6 Dec 2021,0.0187
+Soap,Low,3 Dec 2021 - 6 Dec 2021,0.059699999999999996
+Soap,Medium,3 Dec 2021 - 6 Dec 2021,0.3507
+Soap,High,3 Dec 2021 - 6 Dec 2021,0.5709000000000001
+Sparkling water,None,3 Dec 2021 - 6 Dec 2021,0.0187
+Sparkling water,Low,3 Dec 2021 - 6 Dec 2021,0.1045
+Sparkling water,Medium,3 Dec 2021 - 6 Dec 2021,0.3657
+Sparkling water,High,3 Dec 2021 - 6 Dec 2021,0.5112
+Toilet rolls,None,3 Dec 2021 - 6 Dec 2021,0.0075
+Toilet rolls,Low,3 Dec 2021 - 6 Dec 2021,0.0787
+Toilet rolls,Medium,3 Dec 2021 - 6 Dec 2021,0.42700000000000005
+Toilet rolls,High,3 Dec 2021 - 6 Dec 2021,0.4869
+Toothpaste,None,3 Dec 2021 - 6 Dec 2021,0.011200000000000002
+Toothpaste,Low,3 Dec 2021 - 6 Dec 2021,0.0599
+Toothpaste,Medium,3 Dec 2021 - 6 Dec 2021,0.3858
+Toothpaste,High,3 Dec 2021 - 6 Dec 2021,0.5431
+Washing up liquid,None,3 Dec 2021 - 6 Dec 2021,0.0038
+Washing up liquid,Low,3 Dec 2021 - 6 Dec 2021,0.0526
+Washing up liquid,Medium,3 Dec 2021 - 6 Dec 2021,0.3383
+Washing up liquid,High,3 Dec 2021 - 6 Dec 2021,0.6053000000000001
+Total,None,10 Dec 2021 - 13 Dec 2021,0.0148
+Total,Low,10 Dec 2021 - 13 Dec 2021,0.0727
+Total,Medium,10 Dec 2021 - 13 Dec 2021,0.3788
+Total,High,10 Dec 2021 - 13 Dec 2021,0.5337
+Beer,None,10 Dec 2021 - 13 Dec 2021,0.0038
+Beer,Low,10 Dec 2021 - 13 Dec 2021,0.0113
+Beer,Medium,10 Dec 2021 - 13 Dec 2021,0.23399999999999999
+Beer,High,10 Dec 2021 - 13 Dec 2021,0.7509
+Bread,None,10 Dec 2021 - 13 Dec 2021,0.0037
+Bread,Low,10 Dec 2021 - 13 Dec 2021,0.040999999999999995
+Bread,Medium,10 Dec 2021 - 13 Dec 2021,0.4366
+Bread,High,10 Dec 2021 - 13 Dec 2021,0.5186999999999999
+Chocolate selection boxes,None,10 Dec 2021 - 13 Dec 2021,0.030299999999999997
+Chocolate selection boxes,Low,10 Dec 2021 - 13 Dec 2021,0.09849999999999999
+Chocolate selection boxes,Medium,10 Dec 2021 - 13 Dec 2021,0.3258
+Chocolate selection boxes,High,10 Dec 2021 - 13 Dec 2021,0.5455
+Crisps (multipack),None,10 Dec 2021 - 13 Dec 2021,0.0149
+Crisps (multipack),Low,10 Dec 2021 - 13 Dec 2021,0.12689999999999999
+Crisps (multipack),Medium,10 Dec 2021 - 13 Dec 2021,0.4739
+Crisps (multipack),High,10 Dec 2021 - 13 Dec 2021,0.3843
+Dried pasta,None,10 Dec 2021 - 13 Dec 2021,0.0037
+Dried pasta,Low,10 Dec 2021 - 13 Dec 2021,0.08960000000000001
+Dried pasta,Medium,10 Dec 2021 - 13 Dec 2021,0.3843
+Dried pasta,High,10 Dec 2021 - 13 Dec 2021,0.5224
+Fresh chicken,None,10 Dec 2021 - 13 Dec 2021,0.0075
+Fresh chicken,Low,10 Dec 2021 - 13 Dec 2021,0.0634
+Fresh chicken,Medium,10 Dec 2021 - 13 Dec 2021,0.3321
+Fresh chicken,High,10 Dec 2021 - 13 Dec 2021,0.597
+Fresh fish,None,10 Dec 2021 - 13 Dec 2021,0.0079
+Fresh fish,Low,10 Dec 2021 - 13 Dec 2021,0.1186
+Fresh fish,Medium,10 Dec 2021 - 13 Dec 2021,0.3834
+Fresh fish,High,10 Dec 2021 - 13 Dec 2021,0.4901
+Fresh fruit,None,10 Dec 2021 - 13 Dec 2021,0.0075
+Fresh fruit,Low,10 Dec 2021 - 13 Dec 2021,0.048499999999999995
+Fresh fruit,Medium,10 Dec 2021 - 13 Dec 2021,0.3657
+Fresh fruit,High,10 Dec 2021 - 13 Dec 2021,0.5784
+Fresh pork,None,10 Dec 2021 - 13 Dec 2021,0.0187
+Fresh pork,Low,10 Dec 2021 - 13 Dec 2021,0.09699999999999999
+Fresh pork,Medium,10 Dec 2021 - 13 Dec 2021,0.4254
+Fresh pork,High,10 Dec 2021 - 13 Dec 2021,0.45899999999999996
+Fresh vegetables,None,10 Dec 2021 - 13 Dec 2021,0.0075
+Fresh vegetables,Low,10 Dec 2021 - 13 Dec 2021,0.044800000000000006
+Fresh vegetables,Medium,10 Dec 2021 - 13 Dec 2021,0.3284
+Fresh vegetables,High,10 Dec 2021 - 13 Dec 2021,0.6194
+Frozen chips,None,10 Dec 2021 - 13 Dec 2021,0.0038
+Frozen chips,Low,10 Dec 2021 - 13 Dec 2021,0.07519999999999999
+Frozen chips,Medium,10 Dec 2021 - 13 Dec 2021,0.3947
+Frozen chips,High,10 Dec 2021 - 13 Dec 2021,0.5263
+Frozen fish,None,10 Dec 2021 - 13 Dec 2021,0.0115
+Frozen fish,Low,10 Dec 2021 - 13 Dec 2021,0.0345
+Frozen fish,Medium,10 Dec 2021 - 13 Dec 2021,0.4023
+Frozen fish,High,10 Dec 2021 - 13 Dec 2021,0.5517
+Frozen turkey,None,10 Dec 2021 - 13 Dec 2021,0.0636
+Frozen turkey,Low,10 Dec 2021 - 13 Dec 2021,0.1091
+Frozen turkey,Medium,10 Dec 2021 - 13 Dec 2021,0.4182
+Frozen turkey,High,10 Dec 2021 - 13 Dec 2021,0.40909999999999996
+Frozen vegetables,None,10 Dec 2021 - 13 Dec 2021,0.0075
+Frozen vegetables,Low,10 Dec 2021 - 13 Dec 2021,0.0602
+Frozen vegetables,Medium,10 Dec 2021 - 13 Dec 2021,0.36469999999999997
+Frozen vegetables,High,10 Dec 2021 - 13 Dec 2021,0.5677
+Ibuprofen,None,10 Dec 2021 - 13 Dec 2021,0.0301
+Ibuprofen,Low,10 Dec 2021 - 13 Dec 2021,0.1128
+Ibuprofen,Medium,10 Dec 2021 - 13 Dec 2021,0.41729999999999995
+Ibuprofen,High,10 Dec 2021 - 13 Dec 2021,0.43979999999999997
+Milk,None,10 Dec 2021 - 13 Dec 2021,0.0037
+Milk,Low,10 Dec 2021 - 13 Dec 2021,0.0672
+Milk,Medium,10 Dec 2021 - 13 Dec 2021,0.4664
+Milk,High,10 Dec 2021 - 13 Dec 2021,0.46270000000000006
+Paracetamol,None,10 Dec 2021 - 13 Dec 2021,0.0637
+Paracetamol,Low,10 Dec 2021 - 13 Dec 2021,0.1386
+Paracetamol,Medium,10 Dec 2021 - 13 Dec 2021,0.3558
+Paracetamol,High,10 Dec 2021 - 13 Dec 2021,0.44189999999999996
+Potatoes,None,10 Dec 2021 - 13 Dec 2021,0.0075
+Potatoes,Low,10 Dec 2021 - 13 Dec 2021,0.052199999999999996
+Potatoes,Medium,10 Dec 2021 - 13 Dec 2021,0.26489999999999997
+Potatoes,High,10 Dec 2021 - 13 Dec 2021,0.6754000000000001
+Soap,None,10 Dec 2021 - 13 Dec 2021,0.0187
+Soap,Low,10 Dec 2021 - 13 Dec 2021,0.0709
+Soap,Medium,10 Dec 2021 - 13 Dec 2021,0.37689999999999996
+Soap,High,10 Dec 2021 - 13 Dec 2021,0.5336
+Sparkling water,None,10 Dec 2021 - 13 Dec 2021,0.011200000000000002
+Sparkling water,Low,10 Dec 2021 - 13 Dec 2021,0.0784
+Sparkling water,Medium,10 Dec 2021 - 13 Dec 2021,0.444
+Sparkling water,High,10 Dec 2021 - 13 Dec 2021,0.4664
+Toilet rolls,None,10 Dec 2021 - 13 Dec 2021,0.0075
+Toilet rolls,Low,10 Dec 2021 - 13 Dec 2021,0.0412
+Toilet rolls,Medium,10 Dec 2021 - 13 Dec 2021,0.41950000000000004
+Toilet rolls,High,10 Dec 2021 - 13 Dec 2021,0.5318
+Toothpaste,None,10 Dec 2021 - 13 Dec 2021,0.0075
+Toothpaste,Low,10 Dec 2021 - 13 Dec 2021,0.0375
+Toothpaste,Medium,10 Dec 2021 - 13 Dec 2021,0.3895
+Toothpaste,High,10 Dec 2021 - 13 Dec 2021,0.5655
+Washing up liquid,None,10 Dec 2021 - 13 Dec 2021,0.0075
+Washing up liquid,Low,10 Dec 2021 - 13 Dec 2021,0.0637
+Washing up liquid,Medium,10 Dec 2021 - 13 Dec 2021,0.3146
+Washing up liquid,High,10 Dec 2021 - 13 Dec 2021,0.6142
+Total,None,17 Dec 2021 - 20 Dec 2021,0.0166
+Total,Low,17 Dec 2021 - 20 Dec 2021,0.0708
+Total,Medium,17 Dec 2021 - 20 Dec 2021,0.397
+Total,High,17 Dec 2021 - 20 Dec 2021,0.5156000000000001
+Beer,None,17 Dec 2021 - 20 Dec 2021,0.0039000000000000003
+Beer,Low,17 Dec 2021 - 20 Dec 2021,0.0039000000000000003
+Beer,Medium,17 Dec 2021 - 20 Dec 2021,0.2646
+Beer,High,17 Dec 2021 - 20 Dec 2021,0.7276
+Bread,None,17 Dec 2021 - 20 Dec 2021,0.0038
+Bread,Low,17 Dec 2021 - 20 Dec 2021,0.05
+Bread,Medium,17 Dec 2021 - 20 Dec 2021,0.4462
+Bread,High,17 Dec 2021 - 20 Dec 2021,0.5
+Chocolate selection boxes,None,17 Dec 2021 - 20 Dec 2021,0.07
+Chocolate selection boxes,Low,17 Dec 2021 - 20 Dec 2021,0.10890000000000001
+Chocolate selection boxes,Medium,17 Dec 2021 - 20 Dec 2021,0.3696
+Chocolate selection boxes,High,17 Dec 2021 - 20 Dec 2021,0.4514
+Crisps (multipack),None,17 Dec 2021 - 20 Dec 2021,0.0154
+Crisps (multipack),Low,17 Dec 2021 - 20 Dec 2021,0.0965
+Crisps (multipack),Medium,17 Dec 2021 - 20 Dec 2021,0.4595
+Crisps (multipack),High,17 Dec 2021 - 20 Dec 2021,0.4286
+Dried pasta,None,17 Dec 2021 - 20 Dec 2021,0.0038
+Dried pasta,Low,17 Dec 2021 - 20 Dec 2021,0.0654
+Dried pasta,Medium,17 Dec 2021 - 20 Dec 2021,0.4192
+Dried pasta,High,17 Dec 2021 - 20 Dec 2021,0.5115
+Fresh chicken,None,17 Dec 2021 - 20 Dec 2021,0.0077
+Fresh chicken,Low,17 Dec 2021 - 20 Dec 2021,0.0385
+Fresh chicken,Medium,17 Dec 2021 - 20 Dec 2021,0.4115
+Fresh chicken,High,17 Dec 2021 - 20 Dec 2021,0.5423
+Fresh fish,None,17 Dec 2021 - 20 Dec 2021,0.0121
+Fresh fish,Low,17 Dec 2021 - 20 Dec 2021,0.0484
+Fresh fish,Medium,17 Dec 2021 - 20 Dec 2021,0.5
+Fresh fish,High,17 Dec 2021 - 20 Dec 2021,0.4395
+Fresh fruit,None,17 Dec 2021 - 20 Dec 2021,0.0077
+Fresh fruit,Low,17 Dec 2021 - 20 Dec 2021,0.0192
+Fresh fruit,Medium,17 Dec 2021 - 20 Dec 2021,0.43079999999999996
+Fresh fruit,High,17 Dec 2021 - 20 Dec 2021,0.5423
+Fresh pork,None,17 Dec 2021 - 20 Dec 2021,0.0154
+Fresh pork,Low,17 Dec 2021 - 20 Dec 2021,0.13849999999999998
+Fresh pork,Medium,17 Dec 2021 - 20 Dec 2021,0.44229999999999997
+Fresh pork,High,17 Dec 2021 - 20 Dec 2021,0.40380000000000005
+Fresh vegetables,None,17 Dec 2021 - 20 Dec 2021,0.0077
+Fresh vegetables,Low,17 Dec 2021 - 20 Dec 2021,0.0308
+Fresh vegetables,Medium,17 Dec 2021 - 20 Dec 2021,0.3231
+Fresh vegetables,High,17 Dec 2021 - 20 Dec 2021,0.6385000000000001
+Frozen chips,None,17 Dec 2021 - 20 Dec 2021,0.0039000000000000003
+Frozen chips,Low,17 Dec 2021 - 20 Dec 2021,0.04650000000000001
+Frozen chips,Medium,17 Dec 2021 - 20 Dec 2021,0.3643
+Frozen chips,High,17 Dec 2021 - 20 Dec 2021,0.5853
+Frozen fish,None,17 Dec 2021 - 20 Dec 2021,0.0078000000000000005
+Frozen fish,Low,17 Dec 2021 - 20 Dec 2021,0.0352
+Frozen fish,Medium,17 Dec 2021 - 20 Dec 2021,0.39840000000000003
+Frozen fish,High,17 Dec 2021 - 20 Dec 2021,0.5586
+Frozen turkey,None,17 Dec 2021 - 20 Dec 2021,0.0556
+Frozen turkey,Low,17 Dec 2021 - 20 Dec 2021,0.18059999999999998
+Frozen turkey,Medium,17 Dec 2021 - 20 Dec 2021,0.4028
+Frozen turkey,High,17 Dec 2021 - 20 Dec 2021,0.3611
+Frozen vegetables,None,17 Dec 2021 - 20 Dec 2021,0.0039000000000000003
+Frozen vegetables,Low,17 Dec 2021 - 20 Dec 2021,0.0349
+Frozen vegetables,Medium,17 Dec 2021 - 20 Dec 2021,0.3643
+Frozen vegetables,High,17 Dec 2021 - 20 Dec 2021,0.5969
+Ibuprofen,None,17 Dec 2021 - 20 Dec 2021,0.0467
+Ibuprofen,Low,17 Dec 2021 - 20 Dec 2021,0.1401
+Ibuprofen,Medium,17 Dec 2021 - 20 Dec 2021,0.43579999999999997
+Ibuprofen,High,17 Dec 2021 - 20 Dec 2021,0.3774
+Milk,None,17 Dec 2021 - 20 Dec 2021,0.0038
+Milk,Low,17 Dec 2021 - 20 Dec 2021,0.0462
+Milk,Medium,17 Dec 2021 - 20 Dec 2021,0.4462
+Milk,High,17 Dec 2021 - 20 Dec 2021,0.5038
+Paracetamol,None,17 Dec 2021 - 20 Dec 2021,0.061799999999999994
+Paracetamol,Low,17 Dec 2021 - 20 Dec 2021,0.18530000000000002
+Paracetamol,Medium,17 Dec 2021 - 20 Dec 2021,0.3282
+Paracetamol,High,17 Dec 2021 - 20 Dec 2021,0.42469999999999997
+Potatoes,None,17 Dec 2021 - 20 Dec 2021,0.0077
+Potatoes,Low,17 Dec 2021 - 20 Dec 2021,0.0385
+Potatoes,Medium,17 Dec 2021 - 20 Dec 2021,0.3115
+Potatoes,High,17 Dec 2021 - 20 Dec 2021,0.6423000000000001
+Soap,None,17 Dec 2021 - 20 Dec 2021,0.0115
+Soap,Low,17 Dec 2021 - 20 Dec 2021,0.061500000000000006
+Soap,Medium,17 Dec 2021 - 20 Dec 2021,0.40380000000000005
+Soap,High,17 Dec 2021 - 20 Dec 2021,0.5231
+Sparkling water,None,17 Dec 2021 - 20 Dec 2021,0.0192
+Sparkling water,Low,17 Dec 2021 - 20 Dec 2021,0.08460000000000001
+Sparkling water,Medium,17 Dec 2021 - 20 Dec 2021,0.4115
+Sparkling water,High,17 Dec 2021 - 20 Dec 2021,0.48460000000000003
+Toilet rolls,None,17 Dec 2021 - 20 Dec 2021,0.0039000000000000003
+Toilet rolls,Low,17 Dec 2021 - 20 Dec 2021,0.0888
+Toilet rolls,Medium,17 Dec 2021 - 20 Dec 2021,0.4517
+Toilet rolls,High,17 Dec 2021 - 20 Dec 2021,0.4556
+Toothpaste,None,17 Dec 2021 - 20 Dec 2021,0.0077
+Toothpaste,Low,17 Dec 2021 - 20 Dec 2021,0.0425
+Toothpaste,Medium,17 Dec 2021 - 20 Dec 2021,0.4131
+Toothpaste,High,17 Dec 2021 - 20 Dec 2021,0.5367000000000001
+Washing up liquid,None,17 Dec 2021 - 20 Dec 2021,0.0077
+Washing up liquid,Low,17 Dec 2021 - 20 Dec 2021,0.061799999999999994
+Washing up liquid,Medium,17 Dec 2021 - 20 Dec 2021,0.33590000000000003
+Washing up liquid,High,17 Dec 2021 - 20 Dec 2021,0.5946
