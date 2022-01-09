@@ -45,6 +45,17 @@ h1, h2, h3, p{
     padding: 20px; 
   }
 
+  .body_container3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 30px 30px;
+    margin-top: 30px;
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    padding: 30px; 
+  }
+
 
 .chart{
     background-color: white;
@@ -169,13 +180,25 @@ a:hover {
     max-width: 95%
   }
  
+  .charts2 {
+    min-width: 350px;
+    padding: 10px
+  }
+  .charts3 {
+    min-width: 350px;
+    padding: 10px
+  }
+
+  .long_chart {
+    min-width: 350px;
+    padding: 10px
+  }
   .chart {
     min-width: 350px;
     padding: 10px
   }
-  .chart:hover {
-    border-color: rgb(224, 70, 8);
-  }
+
+ 
   .body_container {
     border-style: none;
     padding: 1px;
