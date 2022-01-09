@@ -58,7 +58,7 @@
         {"field": "Forest Coverage", "type": "quantitative", "title": "Forest Coverage %"}],
       "color": {
         "field": "Forest Coverage",
-        "type": "nominal",
+        "type": "quantitative",
         "legend": null,
         "scale": {"scheme": "greens"}
     
