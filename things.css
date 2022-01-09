@@ -31,8 +31,21 @@ h1, h2, h3, p{
     margin-top: 30px;
     border-radius: 25px;
     border: 2px solid #ffffff;
-    padding: 20px;
+    padding: 20px; 
   }
+
+  .body_container2 {
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 30px 30px;
+    margin-top: 30px;
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    justify-content: center;  
+    display: flex;
+  }
+
 
 .chart{
     background-color: white;
@@ -82,15 +95,17 @@ h1, h2, h3, p{
 
     margin: 1px 2px 10px 2px;
 
+  
+
     padding: 5px 12px;
 
-    max-width: 40%;
+    width: 50%;
     height: 200px;
     
     color: rgb(233, 233, 233);
     font-family: MetricWeb,sans-serif;
     line-height: 20px;
-    font-weight: 600;
+    font-weight: 1000;
     
     box-sizing: content-box;
     align-items: flex-start;
@@ -102,21 +117,47 @@ h1, h2, h3, p{
     outline-offset: 3px;
     overflow: hidden;
     text-align: center;
-    white-space: nowrap;
   }
 
-.dashPage1-title {
-  margin: 0;
+.button-title {
+  margin: 0.5;
   font-family: MetricWeb,sans-serif;
   font-size: 30px;
   font-weight: 600;
+  text-align: center;
   color: rgb(233, 233, 233)
 }
 
-.dashPage1-rubric {
-  margin: 0;
+.container {  
+  width: 300px;  
+  height: 300px;  
+  border: 5px solid red;  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  }  
+.button {  
+  color: black;  
+  font-size: 25px;  
+  color: rgb(233, 233, 233);
+    font-family: MetricWeb,sans-serif;
+    line-height: 20px;
+    font-weight: 1000;
+    padding: 5px 12px;
+    text-decoration: none;
+
+    width: 30%;
+    height: 150px;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(0,255,127);
+    border-radius: 10px;
+  }  
+
+.button-rubric {
+  margin: 50;
   font-family: MetricWeb,sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   color: rgb(233, 233, 233)
 }
@@ -167,21 +208,33 @@ a:hover {
 
 
 /* A media query for a large screen */
-@media (min-width: 1170px) {
-  .wrapper {
-    max-width: 1170px;
+@media only screen and (max-width: 450px) {
+  body {
+    max-width: 95%
   }
-}
-
-
-.flex-parent {
-  display: flex;
-}
-
-.jc-center {
-  justify-content: center;
-}
-
-dashpage1.margin-right {
-  margin-right: 20px;
+  .multi-button button {
+    font-size: 1rem;
+  }
+  .chart {
+    min-width: 350px;
+    padding: 10px
+  }
+  .chart:hover {
+    border-color: rgb(224, 70, 8);
+  }
+  .bcontainer {
+    border-style: none;
+    padding: 1px;
+    gap: 10px 10px
+  }
+  .bcontainer-project {
+    border-style: none;
+    padding: 1px;
+    gap: 10px 10px
+  }
+  .bcontainer-project-section4 {
+    border-style: none;
+    padding: 1px;
+    gap: 10px 10px
+  }
 }
