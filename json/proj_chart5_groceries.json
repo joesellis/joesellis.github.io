@@ -1,0 +1,57 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Food availability in the run up to Christmas",
+    "data": {
+      "url": "https://raw.githubusercontent.com/joesellis/joesellis.github.io/main/proj_food4.csv",
+      "format": {"type": "csv"}
+    },
+    "title": {
+      "text": "Grocery availability in the run up to Christmas",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "subtitle": "272 shops across the UK. Source: ONS",
+      "anchor": "start",
+      "color": "black"
+    },
+    "height": 400,
+    "width": "container",
+    "selection": {
+      "Date": {
+        "type": "single",
+        "fields": ["Date"],
+        "bind": {
+          "input": "select",
+          "options": [null,
+          "29 Oct 2021 - 1 Nov 2021",
+         "5 Nov 2021 - 8 Nov 2021", "12 Nov 2021 - 15 Nov 2021",
+         "19 Nov 2021 - 22 Nov 2021", "26 Nov 2021 - 29 Nov 2021",
+         "3 Dec 2021 - 6 Dec 2021", "10 Dec 2021 - 13 Dec 2021",
+         "17 Dec 2021 - 20 Dec 2021"],
+          "name": "Time Period: "
+        }
+      }
+    },
+    "transform": [{"filter": {"selection": "Date"}}],
+    "mark": {"type":"bar"},
+    "encoding": {
+      "x": {"field": "Value", 
+      "type":"quantitative",
+      "title": "% of shops",
+      "sort": {"op": "sum", "field": "High"}
+      },
+      "y": {"field": "Product",
+       "type": "nominal",
+       "title":null
+       },
+      "color": {"field": "Availability", "type": "nominal"},
+      "tooltip": [
+        {"field": "Product", "type": "nominal", "title": "Product"},
+        {"field": "Availability"},
+        {
+          "field": "Value",
+          "type": "quantitative",
+          "title": "% of shops"
+        }
+      ]
+    }
+  }
