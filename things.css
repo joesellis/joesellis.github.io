@@ -212,4 +212,10 @@ a:hover {
     padding: 1px;
     gap: 10px 10px
   }
+
+  .body_container2 {
+    border-style: none;
+    padding: 1px;
+    gap: 10px 10px
+  }
 }
