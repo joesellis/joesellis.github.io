@@ -56,11 +56,11 @@
 
     <div class="gap-10"></div>
 
-    <p>All nations experienced slowdown and subsequent rebound in GDP growth. 
-        India seems to have much greater GDP volatility than other nations since the pandemic began, in early 2020. 
-        China had its dip in GDP and subsequent rebound earlier than other nations. 
+    <p>All nations experienced slowdown and rebound in GDP growth. 
+        India seems to have greater GDP volatility than other nations since the pandemic began, in early 2020. 
+        China had its dip and rebound earlier than other nations. 
         The UK showed greater volatility than the USA.
-        Further research could indicate why some countries had more volatility in their GDP throughout COVID, 
+        Further research could indicate why some countries had more volatility in their GDP, 
         and how some countries were able to limit damage to GDP growth.
         
 
@@ -70,13 +70,13 @@
 
 <!--Chart 2, lockdown and unemployment-->
 
-<h3>One might assume that the tighter the lockdown in a country, the more unemployment you would see. 
+<h3>One might assume that the tighter the lockdown in a country, the higher the unemployment rate. 
     My next charts explore this link.</h3>
 
 <container class="body_container3">
 
-<p> The University of Oxford produce a daily international lockdown stringency index. 
-    I paired this with monthly OECD unemployment data to look country by country, and also on an entire OECD scale.
+<p> The University of Oxford produce an international lockdown stringency index. 
+    I paired this with monthly OECD unemployment data.
     The colab notebook is available <a href="https://github.com/joesellis/joesellis.github.io/blob/main/ipynb/proj_lockdown_vs_unemployment_cleaning.ipynb">here.</a>
 </p>
 
@@ -119,9 +119,9 @@
 <container class="body_container">
     
     <p> This fully automated, API driven chart looks at how economic indicators track vaccines and COVID hospitalisations in the UK. 
-        I used transforms to rescale data to the same level, and to manipulate different APIs into the same format.
-
+        I used transforms to rescale data and manipulate different APIs into the same format.
     </p>
+
     <div class="gap-10"></div>
     
     <div class="charts2" id="chart33">
@@ -134,10 +134,11 @@
     </div>
     <div class="gap-10"></div>
 
-    <p> Online sales RSI seems to track COVID hospitalisations, one would assume this is because when hospitalisations increase, lockdown stringency increases, and consumers are forced online.
-        Online sales RSI and vaccinations look to have a negative relationship. This could be due consumers feeling safer to go to physical shops once they are vaccinated or believe others around them will be vaccinated. There also could be lower lockdown stringency under high recent vaccination rates.
+    <p> Online sales RSI seems to track COVID hospitalisations, this could be partly because when hospitalisations increase, lockdown stringency increases, and consumers are forced online.
+        Online sales RSI and vaccinations seem to have a negative relationship. 
+        This could be due consumers feeling safer to go to physical shops once they are vaccinated or believe others around them will be vaccinated.
         Online sales RSI and wage growth look to have a negative relationship. One might expect inflation and wage growth to have a more concrete relationship.
-More research would be needed to determine causality in all of these relationships. Further research could also look at why inflation is increasing so much. 
+More research would be needed to determine causality in all of these relationships. Further research could also look at why inflation is increasing. 
 There are several possible factors, including government stimulus and supply chain issues.
     </p>
        
@@ -149,8 +150,8 @@ There are several possible factors, including government stimulus and supply cha
 
 <container class="body_container">
     
-    <p> Supply chains have been weakened during the pandemic, with goods being unable to flow freely between nations due to closed factories, isolating workers, and border restrictions. 
-        The effect of this has been felt in supermarkets, shelves have been emptier than we are used to seeing. 
+    <p> Supply chains have been weakened by the pandemic, with goods unable to flow freely between nations due to closed factories, isolating workers, and border restrictions. 
+        The effects have been felt in supermarkets, and shelves are emptier than we are used to seeing. 
         The ONS produce regular data on shelf availability of common items, which I manipulated in Python and visualised as a stacked bar chart.
         
          The colab notebook is available <a href="https://github.com/joesellis/joesellis.github.io/blob/main/ipynb/Proj_groceries_cleaning.ipynb">here.</a> </p>
@@ -181,7 +182,7 @@ There are several possible factors, including government stimulus and supply cha
     
     <p> The pandemic has clearly affected global GDP, jobs, inflation, online sales, wages, and the supermarket shelf. 
         Global GDP growth was shunted, governments opted for different policies, and nations experienced differences in the volatility and magnitude of change to their GDP. 
-        Inflation and wage growth fluctuated greatly in the UK during the pandemic, but the causes are unclear. 
+        Economic indicators fluctuated greatly in the UK during the pandemic, however the causes are unclear. 
         Availability of items in UK supermarkets has varied more than usual.
         </p>
 
@@ -195,11 +196,11 @@ There are several possible factors, including government stimulus and supply cha
     <div class="gap-10"></div>
 
     <p>
-        <a href="https://data.oecd.org/gdp/quarterly-gdp.htm#indicator-chart">Raw quarterly GDP data from the OECD.</a>
+        <a href="https://data.oecd.org/gdp/quarterly-gdp.htm#indicator-chart">Raw quarterly GDP data - OECD.</a>
     </p>
 
     <p>
-        <a href="https://raw.githubusercontent.com/joesellis/joesellis.github.io/main/proj_gdp_clean.csv">Clean quarterly GDP data from the OECD.</a>
+        <a href="https://raw.githubusercontent.com/joesellis/joesellis.github.io/main/proj_gdp_clean.csv">Clean quarterly GDP data - OECD.</a>
     </p>
 
     <p>
@@ -207,7 +208,7 @@ There are several possible factors, including government stimulus and supply cha
     </p>
 
     <p>
-        <a href="https://stats.oecd.org/index.aspx?queryid=36324">Raw OECD Unemployment data.</a>
+        <a href="https://stats.oecd.org/index.aspx?queryid=36324">Raw Unemployment data - OECD.</a>
     </p>
 
     <p>
@@ -223,7 +224,7 @@ There are several possible factors, including government stimulus and supply cha
     </p>
 
     <p>
-        <a href="https://www.ons.gov.uk/economy/economicoutputandproductivity/output/datasets/shelfavailabilityofitemsfromukshops">Raw ONS Shelf Availability data.</a>
+        <a href="https://www.ons.gov.uk/economy/economicoutputandproductivity/output/datasets/shelfavailabilityofitemsfromukshops">Raw Shelf Availability data - ONS.</a>
     </p>
 
     <p>
