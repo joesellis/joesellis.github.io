@@ -28,7 +28,7 @@
 
     <h1>Data Science 2021, by Joe Ellis</h1>
     
-    <h2>My project aims to explore the economic effects of COVID-19 and lockdowns.</h2>
+    <h2>My project aims to explore the economic effects of COVID-19 and lockdowns through meaningful charts.</h2>
 
     <h3></h3>
 
@@ -39,8 +39,8 @@
 
     <container class="body_container">
     
-    <p>  This simple chart allows the user to assess GDP volatility in several nations.
-        OECD data. The colab notebook is available 
+    <p>  This simple, interactive chart allows the user to assess GDP volatility in several nations.
+        It uses Quarterly OECD data. The colab notebook is available 
         <a href="https://github.com/joesellis/joesellis.github.io/blob/main/ipynb/proj_gdp_cleaning.ipynb">here.</a>
     </p>
     <div class="gap-10"></div>
@@ -56,8 +56,13 @@
 
     <div class="gap-10"></div>
 
-    <p>India seemed to have much greater volatility than other nations. China had its dip in GDP and subsequent rebound earlier than other nations.
-Ideally, I would have investigated why some countries had more volatility in their GDP throughout COVID, and how some countries were able to limit damage to GDP growth.
+    <p>All nations experienced slowdown and subsequent rebound in GDP growth. 
+        India seems to have much greater GDP volatility than other nations since the pandemic began, in early 2020. 
+        China had its dip in GDP and subsequent rebound earlier than other nations. 
+        The UK showed greater volatility than the USA.
+        Further research could indicate why some countries had more volatility in their GDP throughout COVID, 
+        and how some countries were able to limit damage to GDP growth.
+        
 
     </p>   
     
@@ -65,17 +70,21 @@ Ideally, I would have investigated why some countries had more volatility in the
 
 <!--Chart 2, lockdown and unemployment-->
 
-<h3>One might assume that the tighter the lockdown in a country, the more unemployment you would see.</h3>
+<h3>One might assume that the tighter the lockdown in a country, the more unemployment you would see. 
+    My next charts explore this link.</h3>
 
 <container class="body_container3">
 
-<p> Oxford University produce a lockdown stringency index. I paired this with OECD unemployment data to look country by country and also on an entire OECD scale.
+<p> The University of Oxford produce a daily international lockdown stringency index. 
+    I paired this with monthly OECD unemployment data to look country by country, and also on an entire OECD scale.
     The colab notebook is available <a href="https://github.com/joesellis/joesellis.github.io/blob/main/ipynb/proj_lockdown_vs_unemployment_cleaning.ipynb">here.</a>
 </p>
 
 <div class="gap-1"></div>
 
-<p>Many countries maintain their unemployment levels throughout tough lockdowns. However, there are correlations in some nations (Columbia and the USA).</p>
+<p>The results are striking. Many countries maintain the same unemployment levels as lockdowns become harsher. 
+    However, there are correlations in some nations (Columbia, Sweden and the USA). 
+    Click a country on the legend to isolate it on the chart.</p>
 
 <div class="gap-5"></div>
 
@@ -88,8 +97,10 @@ Ideally, I would have investigated why some countries had more volatility in the
 
 </div>
 <div class="gap-10"></div>
-<p>I ran a <a href="https://github.com/joesellis/joesellis.github.io/blob/main/ipynb/proj_lockdown_vs_unemployment_cleaning.ipynb">polynomial regression</a>
-    that shows a slight positive correlation between lockdown stringency and unemployment in the OECD. I would like to establish causality but there are just so many variables at play.
+<p>I wanted to establish whether the two variables were linked, so I needed more data. I used the entire OECD. 
+    I ran a <a href="https://github.com/joesellis/joesellis.github.io/blob/main/ipynb/proj_lockdown_vs_unemployment_cleaning.ipynb">polynomial regression</a>
+    that shows a slight positive correlation between lockdown stringency and unemployment in the OECD. 
+    I would like to establish causality but there are too many variables at play. This has merit for further research.
 </p>
 <!-- Chart 3, lockdown and unemployment regression -->
 <div class="gap-10"></div>
@@ -103,15 +114,12 @@ Ideally, I would have investigated why some countries had more volatility in the
 </container>
 
 <!--Chart 4, economic indicators in the UK-->
-<h3> Having looked at unemployment and lockdowns, I wanted to zoom in on the UK economy.</h3>
+<h3> Having looked at GDP, Unemployment and Lockdowns on a global scale, I wanted to zoom in on the UK economy.</h3>
 
 <container class="body_container">
     
-    <p> This fully API driven chart looks at how economic indicators track vaccines and COVID hospitalisations in the UK.
-        I felt it might be interesting to see how the economy reacts to vaccinations and COVID-19 hospitalisations.
-        Online sales RSI seems to track COVID hospitalisations, one would assume this is because when hospitalisations increase, lockdown stringency increases, and consumers spend more online.
-        Online sales RSI and vaccinations look to have a negative relationship.
-        Online sales RSI and wage growth look to have a negative relationship.
+    <p> This fully automated, API driven chart looks at how economic indicators track vaccines and COVID hospitalisations in the UK. 
+        I used transforms to rescale data to the same level, and to manipulate different APIs into the same format.
 
     </p>
     <div class="gap-10"></div>
@@ -124,16 +132,28 @@ Ideally, I would have investigated why some countries had more volatility in the
      </script>
     
     </div>
+    <div class="gap-10"></div>
+
+    <p> Online sales RSI seems to track COVID hospitalisations, one would assume this is because when hospitalisations increase, lockdown stringency increases, and consumers are forced online.
+        Online sales RSI and vaccinations look to have a negative relationship. This could be due consumers feeling safer to go to physical shops once they are vaccinated or believe others around them will be vaccinated. There also could be lower lockdown stringency under high recent vaccination rates.
+        Online sales RSI and wage growth look to have a negative relationship. One might expect inflation and wage growth to have a more concrete relationship.
+More research would be needed to determine causality in all of these relationships. Further research could also look at why inflation is increasing so much. 
+There are several possible factors, including government stimulus and supply chain issues.
+    </p>
        
 </container>
 
 <!--Chart 5, economic indicators in the UK-->
-<h3> Finally, I considered the supermarket shelf.
+<h3> Finally, I considered supply chains and the UK supermarket shelf.
 </h3>
 
 <container class="body_container">
     
-    <p> ONS data. Colab notebook <a href="https://github.com/joesellis/joesellis.github.io/blob/main/ipynb/Proj_groceries_cleaning.ipynb">here.</a> </p>
+    <p> Supply chains have been weakened during the pandemic, with goods being unable to flow freely between nations due to closed factories, isolating workers, and border restrictions. 
+        The effect of this has been felt in supermarkets, shelves have been emptier than we are used to seeing. 
+        The ONS produce regular data on shelf availability of common items, which I manipulated in Python and visualised as a stacked bar chart.
+        
+         The colab notebook is available <a href="https://github.com/joesellis/joesellis.github.io/blob/main/ipynb/Proj_groceries_cleaning.ipynb">here.</a> </p>
     <div class="gap-10"></div>
     
     <div class="charts2" id="chart34">
@@ -144,12 +164,75 @@ Ideally, I would have investigated why some countries had more volatility in the
      </script>
     
     </div>
+
+    <div class="gap-10"></div>
+
+    <p> Crisps, pasta, paracetamol, and other items experienced shortages over this period. This has been put down to supply chain issues. 
+        I would have liked data on these same items prior to the pandemic, but I could not find any. This warrants further research.
+    </p>
        
 </container>
 
+<!--Conclusion-->
+<h3> Conclusion and Data links
+</h3>
 
+<container class="body_container">
+    
+    <p> The pandemic has clearly affected global GDP, jobs, inflation, online sales, wages, and the supermarket shelf. 
+        Global GDP growth was shunted, governments opted for different policies, and nations experienced differences in the volatility and magnitude of change to their GDP. 
+        Inflation and wage growth fluctuated greatly in the UK during the pandemic, but the causes are unclear. 
+        Availability of items in UK supermarkets has varied more than usual.
+        </p>
 
+    <div class="gap-10"></div>
 
+    <p> The next steps would be to establish which aspect of the pandemic is responsible for movement in each economic indicator.
+         Voluntary behavioural changes and government policies both played a role in changes to the economy. 
+        There is certainly merit for further research into lockdown stringency and unemployment, as well as COVID prevalence and online sales.
+    </p>
+
+    <div class="gap-10"></div>
+
+    <p>
+        <a href="https://data.oecd.org/gdp/quarterly-gdp.htm#indicator-chart">Raw quarterly GDP data from the OECD.</a>
+    </p>
+
+    <p>
+        <a href="https://raw.githubusercontent.com/joesellis/joesellis.github.io/main/proj_gdp_clean.csv">Clean quarterly GDP data from the OECD.</a>
+    </p>
+
+    <p>
+        <a href="https://github.com/OxCGRT/covid-policy-tracker/tree/master/data">Raw Oxford Lockdown Stringency Index. </a>
+    </p>
+
+    <p>
+        <a href="https://stats.oecd.org/index.aspx?queryid=36324">Raw OECD Unemployment data.</a>
+    </p>
+
+    <p>
+        <a href="https://raw.githubusercontent.com/joesellis/joesellis.github.io/main/proj_stringency_unemp2.csv">Clean LSI and Unemployment data.</a>
+    </p>
+
+    <p>
+        <a href="https://coronavirus.data.gov.uk/details/download">UK Government COVID data.</a>
+    </p>
+
+    <p>
+        <a href="https://developer.ons.gov.uk">ONS API.</a>
+    </p>
+
+    <p>
+        <a href="https://www.ons.gov.uk/economy/economicoutputandproductivity/output/datasets/shelfavailabilityofitemsfromukshops">Raw ONS Shelf Availability data.</a>
+    </p>
+
+    <p>
+        <a href="https://raw.githubusercontent.com/joesellis/joesellis.github.io/main/proj_food4.csv">Clean ONS shelf data.</a>
+    </p>
+
+    
+       
+</container>
      
     
 </body>
