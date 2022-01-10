@@ -187,6 +187,12 @@ a:hover {
   body {
     max-width: 95%
   }
+
+  .button {  
+  
+      width: 45%;
+      height: 250px;
+  }
  
   .charts2 {
     min-width: 350px;
