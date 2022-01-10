@@ -53,20 +53,31 @@
      </script>
     
     </div>
-       
+
+    <div class="gap-10"></div>
+
+    <p>India seemed to have much greater volatility than other nations. China had its dip in GDP and subsequent rebound earlier than other nations.
+Ideally, I would have investigated why some countries had more volatility in their GDP throughout COVID, and how some countries were able to limit damage to GDP growth.
+
+    </p>   
     
     </container>
 
 <!--Chart 2, lockdown and unemployment-->
 
-<h3>I decided to then look at lockdown and unemployment in several countries.</h3>
+<h3>One might assume that the tighter the lockdown in a country, the more unemployment you would see.</h3>
 
 <container class="body_container3">
 
-<p>OECD data. 
+<p> Oxford University produce a lockdown stringency index. I paired this with OECD unemployment data to look country by country and also on an entire OECD scale.
     The colab notebook is available <a href="https://github.com/joesellis/joesellis.github.io/blob/main/ipynb/proj_lockdown_vs_unemployment_cleaning.ipynb">here.</a>
 </p>
-<div class="gap-10"></div>
+
+<div class="gap-1"></div>
+
+<p>Many countries maintain their unemployment levels throughout tough lockdowns. However, there are correlations in some nations (Columbia and the USA).</p>
+
+<div class="gap-5"></div>
 
 <div class="charts2" id="chart31">
 
@@ -77,7 +88,8 @@
 
 </div>
 <div class="gap-10"></div>
-<p>Did a regression
+<p>I ran a <a href="https://github.com/joesellis/joesellis.github.io/blob/main/ipynb/proj_lockdown_vs_unemployment_cleaning.ipynb">polynomial regression</a>
+    that shows a slight positive correlation between lockdown stringency and unemployment in the OECD. I would like to establish causality but there are just so many variables at play.
 </p>
 <!-- Chart 3, lockdown and unemployment regression -->
 <div class="gap-10"></div>
@@ -91,11 +103,17 @@
 </container>
 
 <!--Chart 4, economic indicators in the UK-->
-<h3> Economic indicators and COVID - note the correlations between certain values.</h3>
+<h3> Having looked at unemployment and lockdowns, I wanted to zoom in on the UK economy.</h3>
 
 <container class="body_container">
     
-    <p> This fully API driven chart looks at how economic indicators track vaccines and COVID hospitalisations in the UK. </p>
+    <p> This fully API driven chart looks at how economic indicators track vaccines and COVID hospitalisations in the UK.
+        I felt it might be interesting to see how the economy reacts to vaccinations and COVID-19 hospitalisations.
+        Online sales RSI seems to track COVID hospitalisations, one would assume this is because when hospitalisations increase, lockdown stringency increases, and consumers spend more online.
+        Online sales RSI and vaccinations look to have a negative relationship.
+        Online sales RSI and wage growth look to have a negative relationship.
+
+    </p>
     <div class="gap-10"></div>
     
     <div class="charts2" id="chart33">
@@ -110,7 +128,8 @@
 </container>
 
 <!--Chart 5, economic indicators in the UK-->
-<h3> Grocery availability</h3>
+<h3> Finally, I considered the supermarket shelf.
+</h3>
 
 <container class="body_container">
     
