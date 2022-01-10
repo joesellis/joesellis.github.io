@@ -14,7 +14,7 @@
       "anchor": "start",
       "color": "black"},
 
-  "width":550,
+  "width":"container",
   "height":300,
 
       "params": [    
